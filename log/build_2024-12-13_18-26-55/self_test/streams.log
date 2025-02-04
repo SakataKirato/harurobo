@@ -1,0 +1,98 @@
+[0.054s] Invoking command in '/home/a/harurobo/build/self_test': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/a/harurobo/src/diagnostics/self_test -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/self_test
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.402s] -- Build for humble
+[0.404s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.588s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.621s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.625s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found diagnostic_updater: 4.3.1 (/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[0.721s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.723s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.836s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Looking for pthread.h
+[0.926s] -- Looking for pthread.h - found
+[0.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.983s] -- Found Threads: TRUE  
+[1.016s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.086s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.095s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/diagnostics/self_test/include>
+[1.095s] -- Configured cppcheck exclude dirs and/or files: 
+[1.096s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.096s] -- Configured cpplint exclude dirs and/or files: 
+[1.096s] -- Added test 'lint_cmake' to check CMake code style
+[1.097s] -- Added test 'xmllint' to check XML markup files
+[1.098s] -- Configuring done
+[1.115s] -- Generating done
+[1.120s] -- Build files have been written to: /home/a/harurobo/build/self_test
+[1.126s] Invoked command in '/home/a/harurobo/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/a/harurobo/src/diagnostics/self_test -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/self_test
+[1.127s] Invoking command in '/home/a/harurobo/build/self_test': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/self_test -- -j6 -l6
+[1.175s] [  6%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/example/selftest_example.cpp.o[0m
+[1.176s] [ 12%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[1.220s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.226s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.923s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.013s] [ 31%] Built target gtest_main
+[3.215s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.335s] [ 37%] Built target gtest
+[3.417s] [ 43%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[3.427s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[3.438s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[3.453s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[3.781s] [ 68%] [32m[1mLinking CXX executable run_selftest[0m
+[4.034s] [ 68%] Built target run_selftest
+[4.637s] [ 75%] [32m[1mLinking CXX executable selftest_example[0m
+[4.915s] [ 75%] Built target selftest_example
+[8.711s] [ 81%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[8.762s] [ 87%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[9.064s] [ 93%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[9.158s] [ 93%] Built target test_nominal_selftest
+[9.194s] [ 93%] Built target test_exception_selftest
+[9.240s] [100%] [32m[1mLinking CXX executable test_error_selftest[0m
+[9.346s] [100%] Built target test_no_id_selftest
+[9.395s] [100%] Built target test_error_selftest
+[9.400s] Invoked command in '/home/a/harurobo/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/self_test -- -j6 -l6
+[9.401s] Invoking command in '/home/a/harurobo/build/self_test': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/self_test
+[9.404s] -- Install configuration: ""
+[9.404s] -- Installing: /home/a/harurobo/install/self_test/include
+[9.404s] -- Installing: /home/a/harurobo/install/self_test/include/self_test
+[9.404s] -- Installing: /home/a/harurobo/install/self_test/include/self_test/test_runner.hpp
+[9.404s] -- Installing: /home/a/harurobo/install/self_test/lib/self_test/run_selftest
+[9.405s] -- Set runtime path of "/home/a/harurobo/install/self_test/lib/self_test/run_selftest" to ""
+[9.405s] -- Installing: /home/a/harurobo/install/self_test/lib/self_test/selftest_example
+[9.406s] -- Set runtime path of "/home/a/harurobo/install/self_test/lib/self_test/selftest_example" to ""
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/environment/ament_prefix_path.sh
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/environment/path.sh
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/environment/path.dsv
+[9.406s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/local_setup.bash
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/local_setup.sh
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/local_setup.zsh
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/local_setup.dsv
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/package.dsv
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/ament_index/resource_index/packages/self_test
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/cmake/self_testConfig.cmake
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+[9.407s] -- Installing: /home/a/harurobo/install/self_test/share/self_test/package.xml
+[9.413s] Invoked command in '/home/a/harurobo/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/self_test

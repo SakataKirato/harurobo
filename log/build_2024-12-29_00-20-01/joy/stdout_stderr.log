@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target game_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target game_controller_node[0m
+[35m[1mConsolidate compiler generated dependencies of target joy_node[0m
+[35m[1mConsolidate compiler generated dependencies of target joy_enumerate_devices[0m
+[35m[1mConsolidate compiler generated dependencies of target joy[0m
+[ 20%] Built target joy_enumerate_devices
+[ 40%] Built target game_controller_node
+[ 60%] Built target joy_node
+[ 80%] Built target joy
+[100%] Built target game_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/a/harurobo/install/joy/lib/joy/joy_node
+-- Symlinking: /home/a/harurobo/install/joy/lib/joy/game_controller_node
+-- Symlinking: /home/a/harurobo/install/joy/lib/joy/joy_enumerate_devices
+-- Symlinking: /home/a/harurobo/install/joy/include/joy/joy/game_controller.hpp
+-- Symlinking: /home/a/harurobo/install/joy/include/joy/joy/joy.hpp
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/config/joy-params.yaml
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/launch/joy-composed-launch.py
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/launch/joy-launch.py
+-- Symlinking: /home/a/harurobo/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+-- Symlinking: /home/a/harurobo/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/environment/ament_prefix_path.sh
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/environment/ament_prefix_path.dsv
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/environment/path.sh
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/environment/path.dsv
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/local_setup.bash
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/local_setup.sh
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/local_setup.zsh
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/local_setup.dsv
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/package.dsv
+-- Symlinking: /home/a/harurobo/install/joy/share/ament_index/resource_index/packages/joy
+-- Symlinking: /home/a/harurobo/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/cmake/joyConfig.cmake
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/cmake/joyConfig-version.cmake
+-- Symlinking: /home/a/harurobo/install/joy/share/joy/package.xml
+-- Up-to-date: /home/a/harurobo/install/joy/lib/libjoy.so
+-- Up-to-date: /home/a/harurobo/install/joy/lib/libgame_controller.so
+-- Up-to-date: /home/a/harurobo/install/joy/share/joy/cmake/export_joyExport.cmake
+-- Up-to-date: /home/a/harurobo/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+-- Up-to-date: /home/a/harurobo/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+-- Up-to-date: /home/a/harurobo/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake

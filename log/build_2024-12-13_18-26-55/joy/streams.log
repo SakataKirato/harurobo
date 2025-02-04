@@ -1,0 +1,110 @@
+[0.008s] Invoking command in '/home/a/harurobo/build/joy': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/joy
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.065s] -- The CXX compiler identification is GNU 11.4.0
+[0.068s] -- Detecting C compiler ABI info
+[0.103s] -- Detecting C compiler ABI info - done
+[0.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.106s] -- Detecting C compile features
+[0.107s] -- Detecting C compile features - done
+[0.108s] -- Detecting CXX compiler ABI info
+[0.156s] -- Detecting CXX compiler ABI info - done
+[0.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.160s] -- Detecting CXX compile features
+[0.160s] -- Detecting CXX compile features - done
+[0.163s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.355s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.392s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.399s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.405s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.511s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.569s] -- Looking for pthread.h
+[0.689s] -- Looking for pthread.h - found
+[0.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.873s] -- Found Threads: TRUE  
+[0.995s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.051s] -- Found sdl2_vendor: 3.3.0 (/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/cmake)
+[1.063s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.099s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.191s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/joystick_drivers/joy/include>
+[1.191s] -- Configured cppcheck exclude dirs and/or files: 
+[1.192s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.192s] -- Configured cpplint exclude dirs and/or files: 
+[1.192s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.193s] -- Added test 'lint_cmake' to check CMake code style
+[1.194s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.195s] -- Added test 'uncrustify' to check C / C++ code style
+[1.195s] -- Configured uncrustify additional arguments: 
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.198s] -- Configuring done
+[1.214s] -- Generating done
+[1.218s] -- Build files have been written to: /home/a/harurobo/build/joy
+[1.229s] Invoked command in '/home/a/harurobo/build/joy' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/joy
+[1.231s] Invoking command in '/home/a/harurobo/build/joy': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/joy -- -j6 -l6
+[1.418s] [ 10%] [32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o[0m
+[1.427s] [ 20%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[1.432s] [ 40%] [32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o[0m
+[1.443s] [ 40%] [32mBuilding CXX object CMakeFiles/game_controller.dir/src/game_controller.cpp.o[0m
+[1.471s] [ 50%] [32mBuilding CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o[0m
+[2.712s] [ 60%] [32m[1mLinking CXX executable joy_enumerate_devices[0m
+[3.032s] [ 60%] Built target joy_enumerate_devices
+[7.735s] [ 70%] [32m[1mLinking CXX executable game_controller_node[0m
+[7.758s] [ 80%] [32m[1mLinking CXX executable joy_node[0m
+[7.962s] [ 80%] Built target game_controller_node
+[7.968s] [ 80%] Built target joy_node
+[12.374s] [ 90%] [32m[1mLinking CXX shared library libjoy.so[0m
+[12.426s] [100%] [32m[1mLinking CXX shared library libgame_controller.so[0m
+[12.841s] [100%] Built target game_controller
+[12.911s] [100%] Built target joy
+[12.963s] Invoked command in '/home/a/harurobo/build/joy' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/joy -- -j6 -l6
+[12.965s] Invoking command in '/home/a/harurobo/build/joy': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/joy
+[12.979s] -- Install configuration: ""
+[12.979s] -- Installing: /home/a/harurobo/install/joy/lib/libjoy.so
+[12.980s] -- Set runtime path of "/home/a/harurobo/install/joy/lib/libjoy.so" to ""
+[12.980s] -- Installing: /home/a/harurobo/install/joy/lib/joy/joy_node
+[12.980s] -- Set runtime path of "/home/a/harurobo/install/joy/lib/joy/joy_node" to ""
+[12.980s] -- Installing: /home/a/harurobo/install/joy/lib/libgame_controller.so
+[12.980s] -- Set runtime path of "/home/a/harurobo/install/joy/lib/libgame_controller.so" to ""
+[12.980s] -- Installing: /home/a/harurobo/install/joy/lib/joy/game_controller_node
+[12.980s] -- Set runtime path of "/home/a/harurobo/install/joy/lib/joy/game_controller_node" to ""
+[12.980s] -- Installing: /home/a/harurobo/install/joy/lib/joy/joy_enumerate_devices
+[12.980s] -- Installing: /home/a/harurobo/install/joy/include/joy
+[12.980s] -- Installing: /home/a/harurobo/install/joy/include/joy/joy
+[12.980s] -- Installing: /home/a/harurobo/install/joy/include/joy/joy/game_controller.hpp
+[12.980s] -- Installing: /home/a/harurobo/install/joy/include/joy/joy/joy.hpp
+[12.980s] -- Installing: /home/a/harurobo/install/joy/share/joy/config
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/config/joy-params.yaml
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/launch
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/launch/joy-composed-launch.py
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/launch/joy-launch.py
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/environment/ament_prefix_path.sh
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/environment/ament_prefix_path.dsv
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/environment/path.sh
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/environment/path.dsv
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/local_setup.bash
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/local_setup.sh
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/local_setup.zsh
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/local_setup.dsv
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/package.dsv
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/ament_index/resource_index/packages/joy
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/export_joyExport.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/joyConfig.cmake
+[12.981s] -- Installing: /home/a/harurobo/install/joy/share/joy/cmake/joyConfig-version.cmake
+[12.984s] -- Installing: /home/a/harurobo/install/joy/share/joy/package.xml
+[13.036s] Invoked command in '/home/a/harurobo/build/joy' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/joy

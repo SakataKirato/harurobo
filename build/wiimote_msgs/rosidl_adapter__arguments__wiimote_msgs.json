@@ -1,0 +1,8 @@
+{
+  "package_name": "wiimote_msgs",
+  "non_idl_tuples": [
+    "/home/a/harurobo/src/joystick_drivers/wiimote_msgs:msg/IrSourceInfo.msg",
+    "/home/a/harurobo/src/joystick_drivers/wiimote_msgs:msg/State.msg",
+    "/home/a/harurobo/src/joystick_drivers/wiimote_msgs:msg/TimedSwitch.msg"
+  ]
+}

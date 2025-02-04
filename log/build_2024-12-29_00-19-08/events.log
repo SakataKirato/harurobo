@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (-) JobUnselected: {'identifier': 'diagnostic_aggregator'}
+[0.000360] (-) JobUnselected: {'identifier': 'diagnostic_common_diagnostics'}
+[0.000374] (-) JobUnselected: {'identifier': 'diagnostic_updater'}
+[0.000386] (-) JobUnselected: {'identifier': 'diagnostics'}
+[0.000397] (-) JobUnselected: {'identifier': 'joy'}
+[0.000403] (-) JobUnselected: {'identifier': 'joy_linux'}
+[0.000412] (-) JobUnselected: {'identifier': 'joy_sub'}
+[0.000421] (-) JobUnselected: {'identifier': 'sdl2_vendor'}
+[0.000427] (-) JobUnselected: {'identifier': 'self_test'}
+[0.000436] (-) JobUnselected: {'identifier': 'spacenav'}
+[0.000444] (-) JobUnselected: {'identifier': 'wiimote'}
+[0.000452] (-) JobUnselected: {'identifier': 'wiimote_msgs'}
+[0.000550] (-) EventReactorShutdown: {}

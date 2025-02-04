@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d9f4f5f3798359e7786.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "diagnostic_common_diagnostics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_diagnostic_common_diagnostics_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_diagnostic_common_diagnostics_egg-564c2e8290245b401258.json",
+					"name" : "ament_cmake_python_build_diagnostic_common_diagnostics_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_diagnostic_common_diagnostics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_diagnostic_common_diagnostics-009c8265c029bc015ad5.json",
+					"name" : "ament_cmake_python_copy_diagnostic_common_diagnostics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_common_diagnostics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_common_diagnostics_uninstall-454fb741b825e1b133cd.json",
+					"name" : "diagnostic_common_diagnostics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-83bfb599efb96876e0f3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/harurobo/build/diagnostic_common_diagnostics",
+		"source" : "/home/a/harurobo/src/diagnostics/diagnostic_common_diagnostics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,973 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa1c59120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1c58a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1c58a90>>, mixin_verb=('build',))
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/a/harurobo'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_aggregator' with type 'ros.ament_cmake' and name 'diagnostic_aggregator'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_common_diagnostics' with type 'ros.ament_cmake' and name 'diagnostic_common_diagnostics'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_updater' with type 'ros.ament_cmake' and name 'diagnostic_updater'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/self_test' with type 'ros.ament_cmake' and name 'self_test'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_sub' with type 'ros.ament_python' and name 'joy_sub'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_translate' with type 'ros.ament_python' and name 'joy_translate'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote' with type 'ros.ament_cmake' and name 'wiimote'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote_msgs' with type 'ros.ament_cmake' and name 'wiimote_msgs'
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 25 installed packages in /home/a/ros2_ws/install
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_aggregator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/diagnostic_aggregator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/diagnostic_aggregator', 'merge_install': False, 'path': '/home/a/harurobo/src/diagnostics/diagnostic_aggregator', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/diagnostic_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/diagnostic_updater', 'merge_install': False, 'path': '/home/a/harurobo/src/diagnostics/diagnostic_updater', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'joy_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/joy_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/joy_sub', 'merge_install': False, 'path': '/home/a/harurobo/src/joy_sub', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'joy_translate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'joy_translate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/joy_translate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/joy_translate', 'merge_install': False, 'path': '/home/a/harurobo/src/joy_translate', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/sdl2_vendor', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/sdl2_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/spacenav', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/spacenav', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/wiimote_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/wiimote_msgs', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/wiimote_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_common_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/diagnostic_common_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/diagnostic_common_diagnostics', 'merge_install': False, 'path': '/home/a/harurobo/src/diagnostics/diagnostic_common_diagnostics', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/joy', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/joy_linux', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'self_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/self_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/self_test', 'merge_install': False, 'path': '/home/a/harurobo/src/diagnostics/self_test', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/wiimote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/wiimote', 'merge_install': False, 'path': '/home/a/harurobo/src/joystick_drivers/wiimote', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/harurobo/build/diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/harurobo/install/diagnostics', 'merge_install': False, 'path': '/home/a/harurobo/src/diagnostics/diagnostics', 'symlink_install': False, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/diagnostics/diagnostic_updater' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/diagnostics/diagnostic_updater'
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/diagnostics/diagnostic_aggregator' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/diagnostics/diagnostic_aggregator'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/sdl2_vendor' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/sdl2_vendor'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/wiimote_msgs' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/wiimote_msgs'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/harurobo/src/joy_sub' with build type 'ament_python'
+[0.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_sub', 'ament_prefix_path')
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/ament_prefix_path.ps1'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/ament_prefix_path.dsv'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/ament_prefix_path.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/harurobo/src/joy_translate' with build type 'ament_python'
+[0.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_translate', 'ament_prefix_path')
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/ament_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/ament_prefix_path.dsv'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/ament_prefix_path.sh'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_updater -- -j6 -l6
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/sdl2_vendor -- -j6 -l6
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/wiimote_msgs -- -j6 -l6
+[0.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/harurobo/src/joy_sub'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/harurobo/src/joy_translate'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/sdl2_vendor -- -j6 -l6
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/sdl2_vendor
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/wiimote_msgs -- -j6 -l6
+[0.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/wiimote_msgs
+[0.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_aggregator
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_updater -- -j6 -l6
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_updater
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/sdl2_vendor
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor' for CMake module files
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor' for CMake config files
+[0.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/bin'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/lib/python3.10/site-packages'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/bin'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[0.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[0.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor' for CMake module files
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor' for CMake config files
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/lib/python3.10/site-packages'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/sdl2_vendor/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[0.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[0.847s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/spacenav' with build type 'ament_cmake'
+[0.847s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/spacenav'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote_msgs)
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs' for CMake module files
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/wiimote_msgs
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'cmake_prefix_path')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.sh'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib'
+[0.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'ld_library_path_lib')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.sh'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/bin'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib/pkgconfig/wiimote_msgs.pc'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib/python3.10/site-packages'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/bin'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.sh'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.bash'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.zsh'
+[0.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/wiimote_msgs/share/colcon-core/packages/wiimote_msgs)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote_msgs)
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs' for CMake module files
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'cmake_prefix_path')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.ps1'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib'
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'ld_library_path_lib')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.sh'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/bin'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib/pkgconfig/wiimote_msgs.pc'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote_msgs/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.sh'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.bash'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/package.zsh'
+[0.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/wiimote_msgs/share/colcon-core/packages/wiimote_msgs)
+[0.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_aggregator)
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator' for CMake module files
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_aggregator
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_aggregator', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib'
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_aggregator', 'ld_library_path_lib')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib/pkgconfig/diagnostic_aggregator.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/bin'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.bash'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.zsh'
+[0.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_aggregator/share/colcon-core/packages/diagnostic_aggregator)
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_aggregator)
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator' for CMake module files
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator' for CMake config files
+[0.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_aggregator', 'cmake_prefix_path')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/cmake_prefix_path.sh'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib'
+[0.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_aggregator', 'ld_library_path_lib')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/hook/ld_library_path_lib.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/bin'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib/pkgconfig/diagnostic_aggregator.pc'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/lib/python3.10/site-packages'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_aggregator/bin'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.sh'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_aggregator/share/colcon-core/packages/diagnostic_aggregator)
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/spacenav -- -j6 -l6
+[0.900s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/joy' with build type 'ament_cmake'
+[0.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/joy'
+[0.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.903s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/wiimote' with build type 'ament_cmake'
+[0.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/wiimote'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_updater)
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater' for CMake module files
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_updater
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib'
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'ld_library_path_lib')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib/pkgconfig/diagnostic_updater.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.sh'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.zsh'
+[0.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_updater/share/colcon-core/packages/diagnostic_updater)
+[0.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_updater)
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater' for CMake module files
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater' for CMake config files
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'cmake_prefix_path')
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.dsv'
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.sh'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib'
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'ld_library_path_lib')
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/hook/ld_library_path_lib.sh'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/bin'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib/pkgconfig/diagnostic_updater.pc'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/lib/python3.10/site-packages'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_updater/bin'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.sh'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.bash'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.zsh'
+[0.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_updater/share/colcon-core/packages/diagnostic_updater)
+[0.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/diagnostics/diagnostic_common_diagnostics' with build type 'ament_cmake'
+[0.916s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/diagnostics/diagnostic_common_diagnostics'
+[0.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/joy': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/joy -- -j6 -l6
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/wiimote': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/wiimote -- -j6 -l6
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_common_diagnostics': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_common_diagnostics -- -j6 -l6
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/spacenav -- -j6 -l6
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/spacenav
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spacenav)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav' for CMake module files
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/spacenav
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav' for CMake config files
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'cmake_prefix_path')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib'
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'ld_library_path_lib')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.sh'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/bin'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib/pkgconfig/spacenav.pc'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib/python3.10/site-packages'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/bin'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.ps1'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/spacenav/share/spacenav/package.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.bash'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.zsh'
+[0.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/spacenav/share/colcon-core/packages/spacenav)
+[0.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spacenav)
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav' for CMake module files
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav' for CMake config files
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'cmake_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/cmake_prefix_path.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib'
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'ld_library_path_lib')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/spacenav/share/spacenav/hook/ld_library_path_lib.sh'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/bin'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib/pkgconfig/spacenav.pc'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/lib/python3.10/site-packages'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/spacenav/bin'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/spacenav/share/spacenav/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/spacenav/share/spacenav/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/spacenav/share/colcon-core/packages/spacenav)
+[0.996s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/diagnostics/self_test' with build type 'ament_cmake'
+[0.996s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/diagnostics/self_test'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/self_test': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/self_test -- -j6 -l6
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/wiimote -- -j6 -l6
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/wiimote': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/wiimote
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/joy' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/joy -- -j6 -l6
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/joy': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/joy
+[1.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote)
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote' for CMake module files
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/wiimote
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote' for CMake config files
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'cmake_prefix_path')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib'
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'ld_library_path_lib')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib/pkgconfig/wiimote.pc'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/bin'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/wiimote/share/wiimote/package.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.zsh'
+[1.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/wiimote/share/colcon-core/packages/wiimote)
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote)
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote' for CMake module files
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote' for CMake config files
+[1.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'cmake_prefix_path')
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/cmake_prefix_path.sh'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib'
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'ld_library_path_lib')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/wiimote/share/wiimote/hook/ld_library_path_lib.sh'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib/pkgconfig/wiimote.pc'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/lib/python3.10/site-packages'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/wiimote/bin'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/wiimote/share/wiimote/package.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.sh'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.bash'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/wiimote/share/wiimote/package.zsh'
+[1.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/wiimote/share/colcon-core/packages/wiimote)
+[1.070s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/joystick_drivers/joy_linux' with build type 'ament_cmake'
+[1.070s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/joystick_drivers/joy_linux'
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy' for CMake module files
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/joy' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/joy
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy' for CMake config files
+[1.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib'
+[1.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib/pkgconfig/joy.pc'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib/python3.10/site-packages'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/bin'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy/share/joy/package.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.bash'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.zsh'
+[1.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy/share/colcon-core/packages/joy)
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy' for CMake module files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib'
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib/pkgconfig/joy.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy/bin'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy/share/joy/package.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy/share/joy/package.zsh'
+[1.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy/share/colcon-core/packages/joy)
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/joy_linux': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/joy_linux -- -j6 -l6
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/src/joy_sub': PYTHONPATH=/home/a/harurobo/build/joy_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_sub build --build-base /home/a/harurobo/build/joy_sub/build install --record /home/a/harurobo/build/joy_sub/install.log --single-version-externally-managed install_data
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/joy_linux' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/joy_linux -- -j6 -l6
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/joy_linux': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/joy_linux
+[1.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux' for CMake module files
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/joy_linux' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/joy_linux
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux' for CMake config files
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib/python3.10/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy_linux/share/joy_linux/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.bash'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux' for CMake module files
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux' for CMake config files
+[1.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/bin'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/lib/python3.10/site-packages'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_linux/bin'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy_linux/share/joy_linux/package.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.sh'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.bash'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_linux/share/joy_linux/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/self_test -- -j6 -l6
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/self_test': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/self_test
+[1.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(self_test)
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/self_test
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test' for CMake module files
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test' for CMake config files
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_test', 'cmake_prefix_path')
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.dsv'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib/pkgconfig/self_test.pc'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib/python3.10/site-packages'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/bin'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/self_test/share/self_test/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.zsh'
+[1.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/self_test/share/colcon-core/packages/self_test)
+[1.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(self_test)
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test' for CMake module files
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test' for CMake config files
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_test', 'cmake_prefix_path')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/self_test/share/self_test/hook/cmake_prefix_path.sh'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/bin'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib/pkgconfig/self_test.pc'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/lib/python3.10/site-packages'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/self_test/bin'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/self_test/share/self_test/package.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.sh'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.bash'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/self_test/share/self_test/package.zsh'
+[1.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/self_test/share/colcon-core/packages/self_test)
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/src/joy_translate': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_common_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_common_diagnostics -- -j6 -l6
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostic_common_diagnostics': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_common_diagnostics
+[1.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_common_diagnostics)
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics' for CMake module files
+[1.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostic_common_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/diagnostic_updater:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_common_diagnostics
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics' for CMake config files
+[1.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_common_diagnostics', 'cmake_prefix_path')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib/pkgconfig/diagnostic_common_diagnostics.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib/python3.10/site-packages'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/bin'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.sh'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.bash'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.zsh'
+[1.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_common_diagnostics/share/colcon-core/packages/diagnostic_common_diagnostics)
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_common_diagnostics)
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_common_diagnostics', 'cmake_prefix_path')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/hook/cmake_prefix_path.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib/pkgconfig/diagnostic_common_diagnostics.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/lib/python3.10/site-packages'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostic_common_diagnostics/bin'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.bash'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.zsh'
+[1.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostic_common_diagnostics/share/colcon-core/packages/diagnostic_common_diagnostics)
+[1.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/harurobo/src/diagnostics/diagnostics' with build type 'ament_cmake'
+[1.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/harurobo/src/diagnostics/diagnostics'
+[1.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostics': AMENT_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:/home/a/harurobo/install/diagnostic_aggregator/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_common_diagnostics/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/diagnostics -- -j6 -l6
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostics' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:/home/a/harurobo/install/diagnostic_aggregator/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_common_diagnostics/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/diagnostics -- -j6 -l6
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/harurobo/build/diagnostics': AMENT_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:/home/a/harurobo/install/diagnostic_aggregator/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_common_diagnostics/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/diagnostics
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub' for CMake module files
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub' for CMake config files
+[1.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/src/joy_sub' returned '0': PYTHONPATH=/home/a/harurobo/build/joy_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_sub build --build-base /home/a/harurobo/build/joy_sub/build install --record /home/a/harurobo/build/joy_sub/install.log --single-version-externally-managed install_data
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub/lib'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub/bin'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub/lib/pkgconfig/joy_sub.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages'
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_sub', 'pythonpath')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/pythonpath.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/pythonpath.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_sub/share/joy_sub/hook/pythonpath.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_sub/bin'
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_sub)
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_sub/share/joy_sub/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy_sub/share/joy_sub/package.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_sub/share/joy_sub/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_sub/share/joy_sub/package.bash'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_sub/share/joy_sub/package.zsh'
+[1.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy_sub/share/colcon-core/packages/joy_sub)
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostics)
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics' for CMake module files
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/build/diagnostics' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/self_test:/home/a/harurobo/install/diagnostic_common_diagnostics:/home/a/harurobo/install/diagnostic_updater:/home/a/harurobo/install/diagnostic_aggregator:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/diagnostic_updater/lib:/home/a/harurobo/install/diagnostic_aggregator/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/diagnostic_common_diagnostics/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/diagnostics
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics' for CMake config files
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostics', 'cmake_prefix_path')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/lib/pkgconfig/diagnostics.pc'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/lib/python3.10/site-packages'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/bin'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostics/share/diagnostics/package.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.sh'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.bash'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.zsh'
+[1.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostics/share/colcon-core/packages/diagnostics)
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostics)
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics' for CMake module files
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics' for CMake config files
+[1.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostics', 'cmake_prefix_path')
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/lib/pkgconfig/diagnostics.pc'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/diagnostics/bin'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/diagnostics/share/diagnostics/package.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.sh'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.bash'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/diagnostics/share/diagnostics/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/diagnostics/share/colcon-core/packages/diagnostics)
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate' for CMake module files
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/harurobo/src/joy_translate' returned '0': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate' for CMake config files
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate/lib'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate/bin'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate/lib/pkgconfig/joy_translate.pc'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages'
+[1.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_translate', 'pythonpath')
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/pythonpath.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/pythonpath.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/harurobo/install/joy_translate/share/joy_translate/hook/pythonpath.sh'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/a/harurobo/install/joy_translate/bin'
+[1.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_translate)
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_translate/share/joy_translate/package.ps1'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/harurobo/install/joy_translate/share/joy_translate/package.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_translate/share/joy_translate/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_translate/share/joy_translate/package.bash'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/harurobo/install/joy_translate/share/joy_translate/package.zsh'
+[1.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/harurobo/install/joy_translate/share/colcon-core/packages/joy_translate)
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.383s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.386s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.400s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/harurobo/install/_local_setup_util_ps1.py'
+[1.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.sh'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/harurobo/install/_local_setup_util_sh.py'
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.bash'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.zsh'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.zsh'

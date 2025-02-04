@@ -1,0 +1,138 @@
+[0.020s] Invoking command in '/home/a/harurobo/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_updater
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.285s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.489s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.731s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.773s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.877s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.903s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.998s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.080s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.182s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.186s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.294s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.317s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.369s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.380s] -- Looking for pthread.h
+[1.551s] -- Looking for pthread.h - found
+[1.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.649s] -- Found Threads: TRUE  
+[1.697s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.704s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.036s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.254s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/diagnostics/diagnostic_updater/include>
+[4.255s] -- Configured cppcheck exclude dirs and/or files: 
+[4.259s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.259s] -- Configured cpplint exclude dirs and/or files: 
+[4.261s] -- Added test 'lint_cmake' to check CMake code style
+[4.265s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.271s] -- Added test 'uncrustify' to check C / C++ code style
+[4.271s] -- Configured uncrustify additional arguments: 
+[4.275s] -- Added test 'xmllint' to check XML markup files
+[4.292s] -- Configuring done
+[4.393s] -- Generating done
+[4.466s] -- Build files have been written to: /home/a/harurobo/build/diagnostic_updater
+[4.577s] Invoked command in '/home/a/harurobo/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_updater
+[4.579s] Invoking command in '/home/a/harurobo/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_updater -- -j6 -l6
+[5.028s] [  8%] [32mBuilding CXX object CMakeFiles/diagnostic_updater.dir/src/diagnostic_updater.cpp.o[0m
+[5.032s] [  8%] Built target ament_cmake_python_copy_diagnostic_updater
+[5.071s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.099s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.433s] running egg_info
+[8.435s] creating diagnostic_updater.egg-info
+[8.435s] writing diagnostic_updater.egg-info/PKG-INFO
+[8.435s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[8.435s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[8.435s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[8.464s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[8.465s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[8.763s] [ 25%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[10.354s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.507s] [ 33%] Built target gtest_main
+[32.038s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.634s] [ 41%] Built target gtest
+[48.839s] [ 50%] [32m[1mLinking CXX shared library libdiagnostic_updater.so[0m
+[50.157s] [ 50%] Built target diagnostic_updater
+[50.374s] [ 58%] [32mBuilding CXX object CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.o[0m
+[56.361s] [ 66%] [32m[1mLinking CXX executable diagnostic_status_wrapper_test[0m
+[56.889s] [ 66%] Built target diagnostic_status_wrapper_test
+[57.058s] [ 75%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[70.675s] [ 83%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[71.282s] [ 83%] Built target diagnostic_updater_test
+[71.325s] [ 91%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[80.432s] [100%] [32m[1mLinking CXX executable example[0m
+[80.626s] [100%] Built target example
+[80.636s] Invoked command in '/home/a/harurobo/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_updater -- -j6 -l6
+[80.639s] Invoking command in '/home/a/harurobo/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_updater
+[80.644s] -- Install configuration: ""
+[80.644s] -- Installing: /home/a/harurobo/install/diagnostic_updater/lib/libdiagnostic_updater.so
+[80.646s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_updater/lib/libdiagnostic_updater.so" to ""
+[80.646s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[80.646s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+[80.647s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-4.3.1-py3.10.egg-info
+[80.647s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-4.3.1-py3.10.egg-info/PKG-INFO
+[80.647s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-4.3.1-py3.10.egg-info/top_level.txt
+[80.647s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-4.3.1-py3.10.egg-info/dependency_links.txt
+[80.647s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-4.3.1-py3.10.egg-info/SOURCES.txt
+[80.648s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater
+[80.648s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[80.648s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/example.py
+[80.649s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/__init__.py
+[80.649s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_publisher.py
+[80.649s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_update_functions.py
+[80.649s] -- Installing: /home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_updater.py
+[80.711s] Listing '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/__init__.py'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_updater.py'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_publisher.py'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_update_functions.py'...
+[80.711s] Compiling '/home/a/harurobo/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/example.py'...
+[80.714s] -- Installing: /home/a/harurobo/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[80.714s] -- Installing: /home/a/harurobo/install/diagnostic_updater/lib/diagnostic_updater/example
+[80.716s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+[80.716s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include
+[80.716s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include/diagnostic_updater
+[80.717s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[80.717s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[80.717s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[80.717s] -- Installing: /home/a/harurobo/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[80.717s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.sh
+[80.718s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.dsv
+[80.718s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[80.719s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[80.719s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[80.719s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+[80.720s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[80.720s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+[80.720s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[80.723s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[80.724s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[80.724s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+[80.725s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+[80.725s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[80.725s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport.cmake
+[80.726s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport-noconfig.cmake
+[80.726s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_targets-extras.cmake
+[80.726s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.726s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_libraries-extras.cmake
+[80.727s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[80.727s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[80.727s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[80.727s] -- Installing: /home/a/harurobo/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[80.730s] Invoked command in '/home/a/harurobo/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_updater

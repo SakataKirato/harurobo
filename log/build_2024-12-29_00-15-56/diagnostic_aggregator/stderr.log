@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/a/harurobo/build/diagnostic_aggregator/ament_cmake_python/diagnostic_aggregator/diagnostic_aggregator' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:250: CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

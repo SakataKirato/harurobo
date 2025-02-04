@@ -1,0 +1,54 @@
+[0.023s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_aggregator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_aggregator
+[0.293s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.293s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.294s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.294s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.294s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.312s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.344s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.366s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.384s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.392s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.407s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.413s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.466s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.564s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.602s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.603s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.603s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.647s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/diagnostics/diagnostic_aggregator/include>
+[0.648s] -- Configured cppcheck exclude dirs and/or files: 
+[0.649s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.649s] -- Configured cpplint exclude dirs and/or files: 
+[0.650s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.650s] -- Added test 'lint_cmake' to check CMake code style
+[0.650s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.652s] -- Added test 'uncrustify' to check C / C++ code style
+[0.653s] -- Configured uncrustify additional arguments: 
+[0.653s] -- Added test 'xmllint' to check XML markup files
+[0.662s] -- Configuring done
+[0.690s] -- Generating done
+[0.697s] -- Build files have been written to: /home/a/harurobo/build/diagnostic_aggregator
+[0.712s] Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_aggregator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_aggregator
+[0.713s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[0.807s] [35m[1mConsolidate compiler generated dependencies of target add_analyzer[0m
+[0.821s] [35m[1mConsolidate compiler generated dependencies of target diagnostic_aggregator[0m
+[0.841s] [  8%] [32m[1mLinking CXX executable add_analyzer[0m
+[0.851s] [ 41%] Built target diagnostic_aggregator
+[0.859s] failed to create symbolic link '/home/a/harurobo/build/diagnostic_aggregator/ament_cmake_python/diagnostic_aggregator/diagnostic_aggregator' because existing path cannot be removed: Is a directory
+[0.863s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator] エラー 1
+[0.863s] gmake[1]: *** [CMakeFiles/Makefile2:250: CMakeFiles/ament_cmake_python_symlink_diagnostic_aggregator.dir/all] エラー 2
+[0.863s] gmake[1]: *** 未完了のジョブを待っています....
+[0.904s] [35m[1mConsolidate compiler generated dependencies of target aggregator_node[0m
+[0.915s] [35m[1mConsolidate compiler generated dependencies of target diagnostic_aggregator_analyzers[0m
+[0.936s] [ 50%] [32m[1mLinking CXX executable aggregator_node[0m
+[0.966s] [ 83%] Built target diagnostic_aggregator_analyzers
+[1.211s] [ 91%] Built target add_analyzer
+[1.357s] [100%] Built target aggregator_node
+[1.359s] gmake: *** [Makefile:146: all] エラー 2

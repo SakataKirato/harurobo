@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/a/harurobo/src/turtlesim:action/RotateAbsolute.action",
+    "/home/a/harurobo/src/turtlesim:msg/Color.msg",
+    "/home/a/harurobo/src/turtlesim:msg/Pose.msg",
+    "/home/a/harurobo/src/turtlesim:srv/Kill.srv",
+    "/home/a/harurobo/src/turtlesim:srv/SetPen.srv",
+    "/home/a/harurobo/src/turtlesim:srv/Spawn.srv",
+    "/home/a/harurobo/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/a/harurobo/src/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

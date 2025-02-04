@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating joy_sub.egg-info
+writing joy_sub.egg-info/PKG-INFO
+writing dependency_links to joy_sub.egg-info/dependency_links.txt
+writing entry points to joy_sub.egg-info/entry_points.txt
+writing requirements to joy_sub.egg-info/requires.txt
+writing top-level names to joy_sub.egg-info/top_level.txt
+writing manifest file 'joy_sub.egg-info/SOURCES.txt'
+reading manifest file 'joy_sub.egg-info/SOURCES.txt'
+writing manifest file 'joy_sub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/a/harurobo/install/joy_sub/lib/python3.10/site-packages/joy-sub.egg-link (link to .)
+Installing joy_sub script to /home/a/harurobo/install/joy_sub/lib/joy_sub
+
+Installed /home/a/harurobo/build/joy_sub
+running symlink_data
+symbolically linking /home/a/harurobo/build/joy_sub/resource/joy_sub -> /home/a/harurobo/install/joy_sub/share/ament_index/resource_index/packages

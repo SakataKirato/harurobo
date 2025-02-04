@@ -1,0 +1,27 @@
+[0.034s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[0.387s] [  8%] [32mBuilding CXX object CMakeFiles/add_analyzer.dir/src/add_analyzer.cpp.o[0m
+[0.387s] [ 16%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/status_item.cpp.o[0m
+[0.387s] [ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/analyzer_group.cpp.o[0m
+[0.387s] [ 25%] Built target ament_cmake_python_copy_diagnostic_aggregator
+[0.387s] [ 33%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/aggregator.cpp.o[0m
+[0.470s] running egg_info
+[0.470s] creating diagnostic_aggregator.egg-info
+[0.470s] writing diagnostic_aggregator.egg-info/PKG-INFO
+[0.470s] writing dependency_links to diagnostic_aggregator.egg-info/dependency_links.txt
+[0.470s] writing top-level names to diagnostic_aggregator.egg-info/top_level.txt
+[0.470s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[0.489s] reading manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[0.489s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[0.527s] [ 33%] Built target ament_cmake_python_build_diagnostic_aggregator_egg
+[6.916s] [ 41%] [32m[1mLinking CXX executable add_analyzer[0m
+[7.101s] [ 41%] Built target add_analyzer
+[12.608s] [ 50%] [32m[1mLinking CXX shared library libdiagnostic_aggregator.so[0m
+[13.141s] [ 50%] Built target diagnostic_aggregator
+[13.155s] [ 58%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/discard_analyzer.cpp.o[0m
+[13.155s] [ 66%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/generic_analyzer.cpp.o[0m
+[13.156s] [ 75%] [32mBuilding CXX object CMakeFiles/aggregator_node.dir/src/aggregator_node.cpp.o[0m
+[13.157s] [ 83%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/ignore_analyzer.cpp.o[0m
+[16.987s] [ 91%] [32m[1mLinking CXX executable aggregator_node[0m
+[17.195s] [ 91%] Built target aggregator_node
+[17.747s] [100%] [32m[1mLinking CXX shared library libdiagnostic_aggregator_analyzers.so[0m
+[17.970s] [100%] Built target diagnostic_aggregator_analyzers

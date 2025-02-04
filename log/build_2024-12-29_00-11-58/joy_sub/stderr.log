@@ -1,0 +1,5 @@
+  File "/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages/joy_sub/joy_sub.py", line 16
+    def listener_callback(self,msg)    
+                                       ^
+SyntaxError: expected ':'
+

@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/a/harurobo/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/joy_linux
+[0.267s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.267s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Configuring incomplete, errors occurred!
+[0.268s] See also "/home/a/harurobo/build/joy_linux/CMakeFiles/CMakeOutput.log".
+[0.268s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.268s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[0.268s]   project has asked CMake to find a package configuration file provided by
+[0.269s]   "diagnostic_updater", but CMake did not find one.
+[0.269s] 
+[0.269s]   Could not find a package configuration file provided by
+[0.269s]   "diagnostic_updater" with any of the following names:
+[0.269s] 
+[0.269s]     diagnostic_updaterConfig.cmake
+[0.269s]     diagnostic_updater-config.cmake
+[0.269s] 
+[0.269s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[0.269s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[0.269s]   files.  If "diagnostic_updater" provides a separate development package or
+[0.269s]   SDK, be sure it has been installed.
+[0.269s] 
+[0.269s] [0m
+[0.282s] Invoked command in '/home/a/harurobo/build/joy_linux' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/joy_linux

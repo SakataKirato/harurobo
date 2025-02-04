@@ -1,0 +1,72 @@
+[0.016s] Invoking command in '/home/a/harurobo/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/wiimote_msgs -- -j6 -l6
+[0.269s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.269s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.269s] [  4%] Built target ament_cmake_python_copy_wiimote_msgs
+[0.276s] running egg_info
+[0.277s] creating wiimote_msgs.egg-info
+[0.277s] writing wiimote_msgs.egg-info/PKG-INFO
+[0.277s] writing dependency_links to wiimote_msgs.egg-info/dependency_links.txt
+[0.277s] writing top-level names to wiimote_msgs.egg-info/top_level.txt
+[0.277s] writing manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[0.279s] reading manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[0.279s] writing manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[0.306s] [  4%] Built target ament_cmake_python_build_wiimote_msgs_egg
+[0.895s] [  4%] Built target wiimote_msgs__cpp
+[0.901s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.901s] [  8%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/ir_source_info__functions.c.o[0m
+[0.902s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.903s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.909s] [ 14%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/state__functions.c.o[0m
+[0.935s] [ 17%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/timed_switch__functions.c.o[0m
+[1.035s] [ 19%] [32m[1mLinking C shared library libwiimote_msgs__rosidl_generator_c.so[0m
+[1.078s] [ 19%] Built target wiimote_msgs__rosidl_generator_c
+[1.091s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.118s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.128s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.646s] [ 27%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/ir_source_info__type_support.cpp.o[0m
+[1.723s] [ 29%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/ir_source_info__type_support.cpp.o[0m
+[1.867s] [ 31%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/state__type_support.cpp.o[0m
+[1.912s] [ 34%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/ir_source_info__type_support.cpp.o[0m
+[1.983s] [ 36%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/ir_source_info__type_support.c.o[0m
+[2.039s] [ 38%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/ir_source_info__type_support_c.cpp.o[0m
+[2.058s] [ 40%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/state__type_support.c.o[0m
+[2.119s] [ 42%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/ir_source_info__type_support.cpp.o[0m
+[2.129s] [ 44%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/timed_switch__type_support.cpp.o[0m
+[2.170s] [ 46%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/state__type_support.cpp.o[0m
+[2.197s] [ 48%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/timed_switch__type_support.c.o[0m
+[2.304s] [ 51%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/timed_switch__type_support.cpp.o[0m
+[2.311s] [ 53%] [32m[1mLinking C shared library libwiimote_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.319s] [ 55%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[2.321s] [ 57%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/state__type_support.cpp.o[0m
+[2.357s] [ 59%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_c.so[0m
+[2.401s] [ 59%] Built target wiimote_msgs__rosidl_typesupport_c
+[2.406s] [ 61%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/timed_switch__type_support.cpp.o[0m
+[2.407s] [ 61%] Built target wiimote_msgs__rosidl_typesupport_introspection_c
+[2.443s] [ 63%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[2.506s] [ 65%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_cpp.so[0m
+[2.546s] [ 68%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/timed_switch__type_support_c.cpp.o[0m
+[2.571s] [ 68%] Built target wiimote_msgs__rosidl_typesupport_cpp
+[2.601s] [ 70%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/timed_switch__type_support.cpp.o[0m
+[2.915s] [ 72%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.960s] [ 74%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.986s] [ 74%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c
+[3.015s] [ 74%] Built target wiimote_msgs__rosidl_typesupport_introspection_cpp
+[3.096s] [ 76%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.153s] [ 76%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_cpp
+[3.166s] [ 76%] Built target wiimote_msgs
+[3.182s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.300s] [ 78%] Built target wiimote_msgs__py
+[4.315s] [ 80%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_state_s.c.o[0m
+[4.316s] [ 82%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_ir_source_info_s.c.o[0m
+[4.316s] [ 85%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_timed_switch_s.c.o[0m
+[4.503s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/libwiimote_msgs__rosidl_generator_py.so[0m
+[4.547s] [ 87%] Built target wiimote_msgs__rosidl_generator_py
+[4.565s] [ 91%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.565s] [ 91%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.565s] [ 93%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.648s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.648s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.658s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.682s] [100%] Built target wiimote_msgs__rosidl_typesupport_c__pyext
+[4.682s] [100%] Built target wiimote_msgs__rosidl_typesupport_introspection_c__pyext
+[4.690s] [100%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext

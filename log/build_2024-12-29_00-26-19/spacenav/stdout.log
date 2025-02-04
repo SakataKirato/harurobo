@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target spacenav[0m
+[35m[1mConsolidate compiler generated dependencies of target spacenav_node[0m
+[ 50%] Built target spacenav
+[100%] Built target spacenav_node
+-- Install configuration: ""
+-- Installing: /home/a/harurobo/install/spacenav/lib/libspacenav.so
+-- Set runtime path of "/home/a/harurobo/install/spacenav/lib/libspacenav.so" to ""
+-- Installing: /home/a/harurobo/install/spacenav/lib/spacenav/spacenav_node
+-- Set runtime path of "/home/a/harurobo/install/spacenav/lib/spacenav/spacenav_node" to ""
+-- Installing: /home/a/harurobo/install/spacenav/include/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/include/spacenav/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/include/spacenav/spacenav/spacenav.hpp
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav//launch
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav//launch/classic-launch.py
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav//launch/no_deadband-launch.py
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav//launch/static_deadband-launch.py
+-- Installing: /home/a/harurobo/install/spacenav/share/ament_index/resource_index/package_run_dependencies/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/share/ament_index/resource_index/parent_prefix_path/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/environment/ament_prefix_path.sh
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/environment/ament_prefix_path.dsv
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/environment/path.sh
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/environment/path.dsv
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/local_setup.bash
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/local_setup.sh
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/local_setup.zsh
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/local_setup.dsv
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/package.dsv
+-- Installing: /home/a/harurobo/install/spacenav/share/ament_index/resource_index/packages/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/share/ament_index/resource_index/rclcpp_components/spacenav
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/cmake/spacenavConfig.cmake
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/cmake/spacenavConfig-version.cmake
+-- Installing: /home/a/harurobo/install/spacenav/share/spacenav/package.xml

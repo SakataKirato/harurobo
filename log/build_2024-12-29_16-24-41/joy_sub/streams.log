@@ -1,0 +1,21 @@
+[0.964s] Invoking command in '/home/a/harurobo/src/joy_sub': PYTHONPATH=/home/a/harurobo/build/joy_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_sub build --build-base /home/a/harurobo/build/joy_sub/build install --record /home/a/harurobo/build/joy_sub/install.log --single-version-externally-managed install_data
+[1.124s] running egg_info
+[1.124s] writing ../../build/joy_sub/joy_sub.egg-info/PKG-INFO
+[1.124s] writing dependency_links to ../../build/joy_sub/joy_sub.egg-info/dependency_links.txt
+[1.124s] writing entry points to ../../build/joy_sub/joy_sub.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/joy_sub/joy_sub.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/joy_sub/joy_sub.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/joy_sub/joy_sub.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/joy_sub/joy_sub.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.127s] running install
+[1.127s] running install_lib
+[1.128s] running install_data
+[1.128s] running install_egg_info
+[1.129s] removing '/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages/joy_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.129s] Copying ../../build/joy_sub/joy_sub.egg-info to /home/a/harurobo/install/joy_sub/lib/python3.10/site-packages/joy_sub-0.0.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.144s] Installing joy_sub script to /home/a/harurobo/install/joy_sub/lib/joy_sub
+[1.144s] writing list of installed files to '/home/a/harurobo/build/joy_sub/install.log'
+[1.162s] Invoked command in '/home/a/harurobo/src/joy_sub' returned '0': PYTHONPATH=/home/a/harurobo/build/joy_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_sub build --build-base /home/a/harurobo/build/joy_sub/build install --record /home/a/harurobo/build/joy_sub/install.log --single-version-externally-managed install_data

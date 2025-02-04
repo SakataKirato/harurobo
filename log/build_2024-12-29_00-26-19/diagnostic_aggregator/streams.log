@@ -1,0 +1,150 @@
+[0.019s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_aggregator -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_aggregator
+[0.282s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.422s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.634s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.737s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.769s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.784s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.059s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.115s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.119s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.150s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.277s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.279s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.292s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.294s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.316s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.339s] -- Looking for pthread.h
+[1.474s] -- Looking for pthread.h - found
+[1.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.567s] -- Found Threads: TRUE  
+[1.669s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.807s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.838s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.845s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.845s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.845s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.845s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.872s] -- Found PythonExtra: .so  
+[1.949s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.949s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/diagnostics/diagnostic_aggregator/include>
+[1.949s] -- Configured cppcheck exclude dirs and/or files: 
+[1.957s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.957s] -- Configured cpplint exclude dirs and/or files: 
+[1.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.967s] -- Added test 'lint_cmake' to check CMake code style
+[1.970s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.977s] -- Added test 'uncrustify' to check C / C++ code style
+[1.977s] -- Configured uncrustify additional arguments: 
+[1.983s] -- Added test 'xmllint' to check XML markup files
+[1.987s] -- Configuring done
+[2.047s] -- Generating done
+[2.053s] -- Build files have been written to: /home/a/harurobo/build/diagnostic_aggregator
+[2.073s] Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/a/harurobo/src/diagnostics/diagnostic_aggregator -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/diagnostic_aggregator
+[2.073s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[2.189s] [  8%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/status_item.cpp.o[0m
+[2.195s] [ 16%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/analyzer_group.cpp.o[0m
+[2.214s] [ 25%] [32mBuilding CXX object CMakeFiles/add_analyzer.dir/src/add_analyzer.cpp.o[0m
+[2.215s] [ 33%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/aggregator.cpp.o[0m
+[2.244s] [ 33%] Built target ament_cmake_python_copy_diagnostic_aggregator
+[2.886s] running egg_info
+[2.892s] creating diagnostic_aggregator.egg-info
+[2.892s] writing diagnostic_aggregator.egg-info/PKG-INFO
+[2.893s] writing dependency_links to diagnostic_aggregator.egg-info/dependency_links.txt
+[2.893s] writing top-level names to diagnostic_aggregator.egg-info/top_level.txt
+[2.893s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[2.896s] reading manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[2.900s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[2.976s] [ 33%] Built target ament_cmake_python_build_diagnostic_aggregator_egg
+[43.640s] [ 41%] [32m[1mLinking CXX executable add_analyzer[0m
+[44.530s] [ 41%] Built target add_analyzer
+[79.093s] [ 50%] [32m[1mLinking CXX shared library libdiagnostic_aggregator.so[0m
+[79.846s] [ 50%] Built target diagnostic_aggregator
+[79.870s] [ 58%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/generic_analyzer.cpp.o[0m
+[85.108s] [ 66%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/ignore_analyzer.cpp.o[0m
+[88.394s] [ 75%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/discard_analyzer.cpp.o[0m
+[90.995s] [ 83%] [32m[1mLinking CXX shared library libdiagnostic_aggregator_analyzers.so[0m
+[91.352s] [ 83%] Built target diagnostic_aggregator_analyzers
+[91.369s] [ 91%] [32mBuilding CXX object CMakeFiles/aggregator_node.dir/src/aggregator_node.cpp.o[0m
+[93.744s] [100%] [32m[1mLinking CXX executable aggregator_node[0m
+[93.935s] [100%] Built target aggregator_node
+[93.961s] Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/a/harurobo/build/diagnostic_aggregator -- -j6 -l6
+[93.966s] Invoking command in '/home/a/harurobo/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_aggregator
+[93.970s] -- Install configuration: ""
+[93.970s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node
+[93.970s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node" to ""
+[93.970s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/lib/diagnostic_aggregator/add_analyzer
+[93.971s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_aggregator/lib/diagnostic_aggregator/add_analyzer" to ""
+[93.971s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+[93.984s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so" to ""
+[93.984s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+[93.986s] -- Set runtime path of "/home/a/harurobo/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so" to ""
+[93.986s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include
+[93.986s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator
+[93.986s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/ignore_analyzer.hpp
+[93.986s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer_group.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/other_analyzer.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/visibility_control.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/discard_analyzer.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer_base.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/aggregator.hpp
+[93.987s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/include/diagnostic_aggregator/status_item.hpp
+[93.988s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.sh
+[93.988s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.dsv
+[93.988s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator-4.3.1-py3.10.egg-info
+[93.989s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator-4.3.1-py3.10.egg-info/PKG-INFO
+[93.989s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator-4.3.1-py3.10.egg-info/top_level.txt
+[93.990s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator-4.3.1-py3.10.egg-info/dependency_links.txt
+[93.990s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator-4.3.1-py3.10.egg-info/SOURCES.txt
+[93.990s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator
+[93.990s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator/__init__.py
+[94.027s] Listing '/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator'...
+[94.027s] Compiling '/home/a/harurobo/install/diagnostic_aggregator/local/lib/python3.10/dist-packages/diagnostic_aggregator/__init__.py'...
+[94.030s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/example.launch.py
+[94.031s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/lib/diagnostic_aggregator/example_pub.py
+[94.031s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/example_analyzers.yaml
+[94.031s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/example_add_analyzers.yaml
+[94.031s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/plugin_description.xml
+[94.032s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/library_path.sh
+[94.032s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/library_path.dsv
+[94.033s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_aggregator
+[94.033s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_aggregator
+[94.033s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.sh
+[94.033s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.dsv
+[94.034s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.sh
+[94.034s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.dsv
+[94.034s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.bash
+[94.034s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.sh
+[94.034s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.zsh
+[94.035s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.dsv
+[94.035s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv
+[94.035s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/ament_index/resource_index/packages/diagnostic_aggregator
+[94.035s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/ament_index/resource_index/diagnostic_aggregator__pluginlib__plugin/diagnostic_aggregator
+[94.036s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport.cmake
+[94.036s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport-noconfig.cmake
+[94.036s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_targets-extras.cmake
+[94.037s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_include_directories-extras.cmake
+[94.037s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+[94.037s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+[94.037s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake
+[94.038s] -- Installing: /home/a/harurobo/install/diagnostic_aggregator/share/diagnostic_aggregator/package.xml
+[94.040s] Invoked command in '/home/a/harurobo/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/harurobo/install/spacenav:/home/a/harurobo/install/sdl2_vendor:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/a/harurobo/build/diagnostic_aggregator

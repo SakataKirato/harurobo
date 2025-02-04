@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-311269938cbe76b9d15c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wiimote",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_wiimote::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_wiimote-73fdcaabfb98042c7cfc.json",
+					"name" : "teleop_wiimote",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_wiimote_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_wiimote_node-b00352ac2aae0fc57d7f.json",
+					"name" : "teleop_wiimote_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-83f384e41661086b4d03.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wiimote_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wiimote_lib-91c6c0a1749de99397a0.json",
+					"name" : "wiimote_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wiimote_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wiimote_node-b5e09290216d56db12f1.json",
+					"name" : "wiimote_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wiimote_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wiimote_uninstall-633eb7c22a898862fbbd.json",
+					"name" : "wiimote_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/harurobo/build/wiimote",
+		"source" : "/home/a/harurobo/src/joystick_drivers/wiimote"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

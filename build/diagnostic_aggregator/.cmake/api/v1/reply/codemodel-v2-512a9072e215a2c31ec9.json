@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-80440d23e79d025dbcc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "diagnostic_aggregator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_analyzer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_analyzer-e1e30a83cd6619cd8bf8.json",
+					"name" : "add_analyzer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aggregator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aggregator_node-675e894cd98cbf8e18dd.json",
+					"name" : "aggregator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_diagnostic_aggregator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_diagnostic_aggregator_egg-c5f80fa37ede22614046.json",
+					"name" : "ament_cmake_python_build_diagnostic_aggregator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_diagnostic_aggregator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_diagnostic_aggregator-61dd56335f29796f36ed.json",
+					"name" : "ament_cmake_python_copy_diagnostic_aggregator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_aggregator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_aggregator-fbfc3056ab7cb8bd745c.json",
+					"name" : "diagnostic_aggregator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_aggregator_analyzers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_aggregator_analyzers-cfd76df159dcc8d07799.json",
+					"name" : "diagnostic_aggregator_analyzers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diagnostic_aggregator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diagnostic_aggregator_uninstall-fdb70d2d8256679ec901.json",
+					"name" : "diagnostic_aggregator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7dbcd0a47efec3616b6c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/harurobo/build/diagnostic_aggregator",
+		"source" : "/home/a/harurobo/src/diagnostics/diagnostic_aggregator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

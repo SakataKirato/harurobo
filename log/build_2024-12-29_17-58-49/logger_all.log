@@ -1,0 +1,281 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'joy_translat']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['joy_translat'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8b1a1ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8b1a1450>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8b1a1450>>, mixin_verb=('build',))
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/a/harurobo'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_aggregator' with type 'ros.ament_cmake' and name 'diagnostic_aggregator'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_common_diagnostics' with type 'ros.ament_cmake' and name 'diagnostic_common_diagnostics'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_updater' with type 'ros.ament_cmake' and name 'diagnostic_updater'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/self_test' with type 'ros.ament_cmake' and name 'self_test'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_sub) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_sub' with type 'ros.ament_python' and name 'joy_sub'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_translate) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_translate' with type 'ros.ament_python' and name 'joy_translate'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote' with type 'ros.ament_cmake' and name 'wiimote'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote_msgs' with type 'ros.ament_cmake' and name 'wiimote_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.193s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'joy_translat' in --packages-select
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostic_aggregator' in 'src/diagnostics/diagnostic_aggregator'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostic_updater' in 'src/diagnostics/diagnostic_updater'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy_sub' in 'src/joy_sub'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy_translate' in 'src/joy_translate'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sdl2_vendor' in 'src/joystick_drivers/sdl2_vendor'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spacenav' in 'src/joystick_drivers/spacenav'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'src/turtlesim'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wiimote_msgs' in 'src/joystick_drivers/wiimote_msgs'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostic_common_diagnostics' in 'src/diagnostics/diagnostic_common_diagnostics'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy' in 'src/joystick_drivers/joy'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy_linux' in 'src/joystick_drivers/joy_linux'
+[0.206s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'self_test' in 'src/diagnostics/self_test'
+[0.207s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wiimote' in 'src/joystick_drivers/wiimote'
+[0.207s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostics' in 'src/diagnostics/diagnostics'
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/a/harurobo/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 25 installed packages in /home/a/ros2_ws/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.238s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.250s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.ps1'
+[0.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/harurobo/install/_local_setup_util_ps1.py'
+[0.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.ps1'
+[0.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.sh'
+[0.269s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/harurobo/install/_local_setup_util_sh.py'
+[0.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.sh'
+[0.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.bash'
+[0.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.bash'
+[0.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/harurobo/install/local_setup.zsh'
+[0.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/harurobo/install/setup.zsh'

@@ -1,0 +1,119 @@
+[0.031s] Invoking command in '/home/a/harurobo/build/wiimote': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/wiimote -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/wiimote
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.221s] -- Found bluetooth library.
+[0.222s] -- Found bluetooth header.
+[0.222s] -- Found cwiid library.
+[0.222s] -- Found cwiid header.
+[0.225s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.429s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.460s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.558s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.760s] -- Found Threads: TRUE  
+[0.792s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.821s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.834s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.852s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.861s] -- Found wiimote_msgs: 3.3.0 (/home/a/harurobo/install/wiimote_msgs/share/wiimote_msgs/cmake)
+[0.875s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.951s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.952s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/a/harurobo/src/joystick_drivers/wiimote/include>
+[0.952s] -- Configured cppcheck exclude dirs and/or files: 
+[0.953s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.953s] -- Configured cpplint exclude dirs and/or files: 
+[0.954s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.954s] -- Added test 'lint_cmake' to check CMake code style
+[0.955s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.956s] -- Added test 'uncrustify' to check C / C++ code style
+[0.956s] -- Configured uncrustify additional arguments: 
+[0.956s] -- Added test 'xmllint' to check XML markup files
+[0.958s] -- Configuring done
+[0.973s] -- Generating done
+[0.978s] -- Build files have been written to: /home/a/harurobo/build/wiimote
+[0.983s] Invoked command in '/home/a/harurobo/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/a/harurobo/src/joystick_drivers/wiimote -DCMAKE_INSTALL_PREFIX=/home/a/harurobo/install/wiimote
+[0.985s] Invoking command in '/home/a/harurobo/build/wiimote': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/wiimote -- -j6 -l6
+[1.068s] [ 11%] [32mBuilding CXX object CMakeFiles/wiimote_lib.dir/src/wiimote_controller.cpp.o[0m
+[1.073s] [ 22%] [32mBuilding CXX object CMakeFiles/wiimote_lib.dir/src/stat_vector_3d.cpp.o[0m
+[1.074s] [ 33%] [32mBuilding CXX object CMakeFiles/wiimote_node.dir/rclcpp_components/node_main_wiimote_node.cpp.o[0m
+[1.081s] [ 44%] [32mBuilding CXX object CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o[0m
+[1.084s] [ 55%] [32mBuilding CXX object CMakeFiles/teleop_wiimote_node.dir/rclcpp_components/node_main_teleop_wiimote_node.cpp.o[0m
+[3.400s] [ 66%] [32m[1mLinking CXX executable teleop_wiimote_node[0m
+[3.467s] [ 77%] [32m[1mLinking CXX executable wiimote_node[0m
+[3.484s] [ 77%] Built target teleop_wiimote_node
+[3.566s] [ 77%] Built target wiimote_node
+[10.870s] [ 88%] [32m[1mLinking CXX shared library libwiimote_lib.so[0m
+[11.565s] [ 88%] Built target wiimote_lib
+[12.323s] [100%] [32m[1mLinking CXX shared library libteleop_wiimote.so[0m
+[12.734s] [100%] Built target teleop_wiimote
+[12.742s] Invoked command in '/home/a/harurobo/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/harurobo/build/wiimote -- -j6 -l6
+[12.742s] Invoking command in '/home/a/harurobo/build/wiimote': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/wiimote
+[12.745s] -- Install configuration: ""
+[12.746s] -- Installing: /home/a/harurobo/install/wiimote/lib/wiimote/wiimote_node
+[12.746s] -- Set runtime path of "/home/a/harurobo/install/wiimote/lib/wiimote/wiimote_node" to ""
+[12.746s] -- Installing: /home/a/harurobo/install/wiimote/lib/wiimote/teleop_wiimote_node
+[12.747s] -- Set runtime path of "/home/a/harurobo/install/wiimote/lib/wiimote/teleop_wiimote_node" to ""
+[12.747s] -- Installing: /home/a/harurobo/install/wiimote/lib/libwiimote_lib.so
+[12.753s] -- Set runtime path of "/home/a/harurobo/install/wiimote/lib/libwiimote_lib.so" to ""
+[12.753s] -- Installing: /home/a/harurobo/install/wiimote/lib/libteleop_wiimote.so
+[12.758s] -- Set runtime path of "/home/a/harurobo/install/wiimote/lib/libteleop_wiimote.so" to ""
+[12.758s] -- Installing: /home/a/harurobo/install/wiimote/include/wiimote
+[12.758s] -- Installing: /home/a/harurobo/install/wiimote/include/wiimote/wiimote
+[12.758s] -- Installing: /home/a/harurobo/install/wiimote/include/wiimote/wiimote/stat_vector_3d.hpp
+[12.758s] -- Installing: /home/a/harurobo/install/wiimote/include/wiimote/wiimote/teleop_wiimote.hpp
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/include/wiimote/wiimote/wiimote_controller.hpp
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/launch
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/launch/feedback_test.launch.py
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/launch/wiimote_lifecycle.launch.py
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/launch/turtlesim.launch.py
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/config
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/config/wiimote_params.yaml
+[12.759s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/config/teleop_wiimote_params.yaml
+[12.759s] -- Up-to-date: /home/a/harurobo/install/wiimote/lib/wiimote/wiimote_node
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/lib/wiimote/feedback_tester.py
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/ament_index/resource_index/package_run_dependencies/wiimote
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/ament_index/resource_index/parent_prefix_path/wiimote
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/environment/ament_prefix_path.sh
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/environment/ament_prefix_path.dsv
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/environment/path.sh
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/environment/path.dsv
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/local_setup.bash
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/local_setup.sh
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/local_setup.zsh
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/local_setup.dsv
+[12.760s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/package.dsv
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/ament_index/resource_index/packages/wiimote
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/ament_index/resource_index/rclcpp_components/wiimote
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/export_wiimoteExport.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/export_wiimoteExport-noconfig.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/wiimote-extras.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/ament_cmake_export_targets-extras.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/wiimoteConfig.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/cmake/wiimoteConfig-version.cmake
+[12.761s] -- Installing: /home/a/harurobo/install/wiimote/share/wiimote/package.xml
+[12.763s] Invoked command in '/home/a/harurobo/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/harurobo/install/wiimote_msgs:/home/a/ros2_ws/install/turtlesim:/home/a/ros2_ws/install/my_package:/home/a/ros2_ws/install/examples_rclcpp_wait_set:/home/a/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/a/ros2_ws/install/examples_rclcpp_minimal_timer:/home/a/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/a/ros2_ws/install/examples_rclcpp_minimal_service:/home/a/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/a/ros2_ws/install/examples_rclcpp_minimal_composition:/home/a/ros2_ws/install/examples_rclcpp_minimal_client:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/a/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/a/ros2_ws/install/examples_rclcpp_cbg_executor:/home/a/ros2_ws/install/examples_rclcpp_async_client:/home/a/ros2_ws/install/py_pubsub:/home/a/ros2_ws/install/launch_testing_examples:/home/a/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/a/ros2_ws/install/examples_rclpy_minimal_service:/home/a/ros2_ws/install/examples_rclpy_minimal_publisher:/home/a/ros2_ws/install/examples_rclpy_minimal_client:/home/a/ros2_ws/install/examples_rclpy_minimal_action_server:/home/a/ros2_ws/install/examples_rclpy_minimal_action_client:/home/a/ros2_ws/install/examples_rclpy_guard_conditions:/home/a/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/a/harurobo/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/harurobo/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/a/harurobo/build/wiimote

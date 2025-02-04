@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target diagnostic_updater[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 16%] Built target diagnostic_updater
+[ 33%] Built target gtest
+[ 50%] Built target gtest_main
+failed to create symbolic link '/home/a/harurobo/build/diagnostic_updater/ament_cmake_python/diagnostic_updater/diagnostic_updater' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_diagnostic_updater.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_diagnostic_updater] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:271: CMakeFiles/ament_cmake_python_symlink_diagnostic_updater.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

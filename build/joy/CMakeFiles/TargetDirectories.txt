@@ -1,0 +1,14 @@
+/home/a/harurobo/build/joy/CMakeFiles/uninstall.dir
+/home/a/harurobo/build/joy/CMakeFiles/joy_uninstall.dir
+/home/a/harurobo/build/joy/CMakeFiles/joy.dir
+/home/a/harurobo/build/joy/CMakeFiles/joy_node.dir
+/home/a/harurobo/build/joy/CMakeFiles/game_controller.dir
+/home/a/harurobo/build/joy/CMakeFiles/game_controller_node.dir
+/home/a/harurobo/build/joy/CMakeFiles/joy_enumerate_devices.dir
+/home/a/harurobo/build/joy/CMakeFiles/test.dir
+/home/a/harurobo/build/joy/CMakeFiles/edit_cache.dir
+/home/a/harurobo/build/joy/CMakeFiles/rebuild_cache.dir
+/home/a/harurobo/build/joy/CMakeFiles/list_install_components.dir
+/home/a/harurobo/build/joy/CMakeFiles/install.dir
+/home/a/harurobo/build/joy/CMakeFiles/install/local.dir
+/home/a/harurobo/build/joy/CMakeFiles/install/strip.dir

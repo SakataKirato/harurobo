@@ -1,0 +1,37 @@
+[0.623s] Invoking command in '/home/a/harurobo/src/joy_translate': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data
+[0.818s] running egg_info
+[0.818s] creating ../../build/joy_translate/joy_translate.egg-info
+[0.820s] writing ../../build/joy_translate/joy_translate.egg-info/PKG-INFO
+[0.820s] writing dependency_links to ../../build/joy_translate/joy_translate.egg-info/dependency_links.txt
+[0.820s] writing entry points to ../../build/joy_translate/joy_translate.egg-info/entry_points.txt
+[0.820s] writing requirements to ../../build/joy_translate/joy_translate.egg-info/requires.txt
+[0.820s] writing top-level names to ../../build/joy_translate/joy_translate.egg-info/top_level.txt
+[0.820s] writing manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+[0.822s] reading manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.822s] running build_py
+[0.822s] creating /home/a/harurobo/build/joy_translate/build
+[0.822s] creating /home/a/harurobo/build/joy_translate/build/lib
+[0.822s] creating /home/a/harurobo/build/joy_translate/build/lib/joy_translate
+[0.822s] copying joy_translate/__init__.py -> /home/a/harurobo/build/joy_translate/build/lib/joy_translate
+[0.822s] copying joy_translate/joy_translate_node.py -> /home/a/harurobo/build/joy_translate/build/lib/joy_translate
+[0.824s] running install
+[0.824s] running install_lib
+[0.824s] creating /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate
+[0.824s] copying /home/a/harurobo/build/joy_translate/build/lib/joy_translate/__init__.py -> /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate
+[0.824s] copying /home/a/harurobo/build/joy_translate/build/lib/joy_translate/joy_translate_node.py -> /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate
+[0.824s] byte-compiling /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate/__init__.py to __init__.cpython-310.pyc
+[0.824s] byte-compiling /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate/joy_translate_node.py to joy_translate_node.cpython-310.pyc
+[0.824s] running install_data
+[0.824s] creating /home/a/harurobo/install/joy_translate/share/ament_index
+[0.825s] creating /home/a/harurobo/install/joy_translate/share/ament_index/resource_index
+[0.826s] creating /home/a/harurobo/install/joy_translate/share/ament_index/resource_index/packages
+[0.826s] copying resource/joy_translate -> /home/a/harurobo/install/joy_translate/share/ament_index/resource_index/packages
+[0.826s] copying package.xml -> /home/a/harurobo/install/joy_translate/share/joy_translate
+[0.826s] running install_egg_info
+[0.826s] Copying ../../build/joy_translate/joy_translate.egg-info to /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate-0.0.0-py3.10.egg-info
+[0.827s] running install_scripts
+[0.846s] Installing joy_translate_node script to /home/a/harurobo/install/joy_translate/lib/joy_translate
+[0.846s] writing list of installed files to '/home/a/harurobo/build/joy_translate/install.log'
+[0.864s] Invoked command in '/home/a/harurobo/src/joy_translate' returned '0': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/joy_translate/joy_translate.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_translate/joy_translate.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_translate/joy_translate.egg-info/entry_points.txt
+writing requirements to ../../build/joy_translate/joy_translate.egg-info/requires.txt
+writing top-level names to ../../build/joy_translate/joy_translate.egg-info/top_level.txt
+reading manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joy_translate/__init__.py -> /home/a/harurobo/build/joy_translate/build/lib/joy_translate
+copying joy_translate/joy_translate_node.py -> /home/a/harurobo/build/joy_translate/build/lib/joy_translate
+running install
+running install_lib
+copying /home/a/harurobo/build/joy_translate/build/lib/joy_translate/__init__.py -> /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate
+copying /home/a/harurobo/build/joy_translate/build/lib/joy_translate/joy_translate_node.py -> /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate
+byte-compiling /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate/joy_translate_node.py to joy_translate_node.cpython-310.pyc
+running install_data
+copying resource/joy_translate -> /home/a/harurobo/install/joy_translate/share/ament_index/resource_index/packages
+copying package.xml -> /home/a/harurobo/install/joy_translate/share/joy_translate
+running install_egg_info
+removing '/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/joy_translate/joy_translate.egg-info to /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_translate_node script to /home/a/harurobo/install/joy_translate/lib/joy_translate
+writing list of installed files to '/home/a/harurobo/build/joy_translate/install.log'

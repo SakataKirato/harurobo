@@ -4,61 +4,93 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 import numpy as np
+from geometry_msgs.msg import Twist
+import yaml
 
 
-# from geometry_msgs.msg import Twist
-from std_msgs.msg import Float32
-
-
+# from std_msgs.msg import Float32
 # from rogidrive_msg.msg import RogidriveMessage
+
+
+def load_config(file_path="config.yaml"):
+    with open(file_path, "r", encoding="utf-8") as file:
+        return yaml.safe_load(file)
 
 
 class JoyTranslate(Node):
     def __init__(self):
         super().__init__("joy_translate_node")
-        self.publisher0 = self.create_publisher(Float32, "/motor0_speed", 10)
-        self.publisher1 = self.create_publisher(Float32, "/motor1_speed", 10)
-        self.publisher2 = self.create_publisher(Float32, "/motor2_speed", 10)
-        self.publisher3 = self.create_publisher(Float32, "/motor3_speed", 10)
+
+        config = load_config()
+
+        self.linear_speedfactor = config["parameters"]["linear_speedfactor"]
+        self.angular_speedfactor = config["parameters"]["angular_speedfactor"]
+
+        self.publisher = self.create_publisher(Twist, "/pid_cmd_vel", 10)
         self.subscription = self.create_subscription(
             Joy, "joy", self.listener_callback, 10
         )
+        # self.publisher1 = self.create_publisher(Twist, "/motor1_speed", 10)
+        # self.publisher2 = self.create_publisher(Twist, "/motor2_speed", 10)
+        # self.publisher3 = self.create_publisher(Twist, "/motor3_speed", 10)
 
     def listener_callback(self, joy):
-        R = 2
-        translate_velocity = np.array(
-            [
-                [-np.sqrt(2), np.sqrt(2), R],
-                [-np.sqrt(2), -np.sqrt(2), R],
-                [np.sqrt(2), -np.sqrt(2), R],
-                [np.sqrt(2), np.sqrt(2), R],
-            ],
+        msg = Twist()
+        msg.linear.x = self.linear_speedfactor * joy.axes[0]
+        msg.linear.y = self.linear_speedfactor * joy.axes[1]
+        msg.angular.z = (-joy.axes[2] + joy.axes[5]) * self.angular_speedfactor
+        self.publisher.publish(msg)
+        self.get_logger().info(
+            f"Velocity: {msg.linear.x}, {msg.linear.y}, {msg.angular.z}"
         )
 
-        controller_velocity = np.array(
-            [joy.axes[0], joy.axes[1], -joy.axes[5] + joy.axes[2]]
-        )
+        # translate_velocity = np.array(
+        #     [
+        #         [
+        #             -self.linear_speedfactor,
+        #             self.linear_speedfactor,
+        #             self.angular_speedfactor,
+        #         ],
+        #         [
+        #             -self.linear_speedfactor,
+        #             -self.linear_speedfactor,
+        #             self.angular_speedfactor,
+        #         ][
+        #             self.linear_speedfactor,
+        #             -self.linear_speedfactor,
+        #             self.angular_speedfactor,
+        #         ],
+        #         [
+        #             self.linear_speedfactor,
+        #             self.linear_speedfactor,
+        #             self.angular_speedfactor,
+        #         ],
+        #     ],
+        # )
 
-        msg0 = Float32()
-        msg1 = Float32()
-        msg2 = Float32()
-        msg3 = Float32()
+        # controller_velocity = np.array(
+        #     [-joy.axes[0], joy.axes[1], -joy.axes[2] + joy.axes[5]]
+        # )
+        # msg1 = Twist()
+        # msg2 = Twist()
+        # msg3 = Twist()
 
-        msg0.data = 0.0
-        msg1.data = 0.0
-        msg2.data = 0.0
-        msg3.data = 0.0
+        # msg0.data = 0.0
+        # msg1.data = 0.0
+        # msg2.data = 0.0
+        # msg3.data = 0.0
 
-        for i in range(4):
-            for j in range(3):
-                if i == 0:
-                    msg0.data += translate_velocity[i][j] * controller_velocity[j]
-                if i == 1:
-                    msg1.data += translate_velocity[i][j] * controller_velocity[j]
-                if i == 2:
-                    msg2.data += translate_velocity[i][j] * controller_velocity[j]
-                if i == 3:
-                    msg3.data += translate_velocity[i][j] * controller_velocity[j]
+        # for i in range(4):
+        #     for j in range(3):
+        #         if i == 0:
+        #             msg0.data += translate_velocity[i][j] * controller_velocity[j]
+        #         if i == 1:
+        #             msg1.data += translate_velocity[i][j] * controller_velocity[j]
+        #         if i == 2:
+        #             msg2.data += translate_velocity[i][j] * controller_velocity[j]
+        #         if i == 3:
+        #             msg3.data += translate_velocity[i][j] * controller_velocity[j]
+
         # msg.name = "haru"
         # msg.mode = 0
         # msg.pos = 0.0
@@ -71,13 +103,9 @@ class JoyTranslate(Node):
         # )
         # self.vel.linear.y = 5*Joy.axes[0]
         # self.vel.angular.z  = -2*(Joy.axes[2]-1) + 2*(Joy.axes[5]-1)
-        self.publisher0.publish(msg0)
-        self.publisher1.publish(msg1)
-        self.publisher2.publish(msg2)
-        self.publisher3.publish(msg3)
-        self.get_logger().info(
-            f"Velocity: Motor0 = {msg0.data}, Motor1 = {msg1.data}, Motor2 = {msg2.data}, Motor3 = {msg3.data}"
-        )
+        # self.publisher1.publish(msg1)
+        # self.publisher2.publish(msg2)
+        # self.publisher3.publish(msg3)
 
 
 def main(args=None):

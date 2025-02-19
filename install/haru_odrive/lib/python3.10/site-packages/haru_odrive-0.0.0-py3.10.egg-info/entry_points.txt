@@ -1,0 +1,3 @@
+[console_scripts]
+od = haru_odrive.od:main
+

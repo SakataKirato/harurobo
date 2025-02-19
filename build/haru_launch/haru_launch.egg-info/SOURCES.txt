@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/haru_launch/haru_launch.egg-info/PKG-INFO
+../../build/haru_launch/haru_launch.egg-info/SOURCES.txt
+../../build/haru_launch/haru_launch.egg-info/dependency_links.txt
+../../build/haru_launch/haru_launch.egg-info/entry_points.txt
+../../build/haru_launch/haru_launch.egg-info/requires.txt
+../../build/haru_launch/haru_launch.egg-info/top_level.txt
+../../build/haru_launch/haru_launch.egg-info/zip-safe
+haru_launch/__init__.py
+haru_launch/haru_launch.py
+resource/haru_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

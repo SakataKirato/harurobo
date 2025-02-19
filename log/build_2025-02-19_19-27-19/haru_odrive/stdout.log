@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/haru_odrive/haru_odrive.egg-info
+writing ../../build/haru_odrive/haru_odrive.egg-info/PKG-INFO
+writing dependency_links to ../../build/haru_odrive/haru_odrive.egg-info/dependency_links.txt
+writing entry points to ../../build/haru_odrive/haru_odrive.egg-info/entry_points.txt
+writing requirements to ../../build/haru_odrive/haru_odrive.egg-info/requires.txt
+writing top-level names to ../../build/haru_odrive/haru_odrive.egg-info/top_level.txt
+writing manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+reading manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/a/harurobo/build/haru_odrive/build
+creating /home/a/harurobo/build/haru_odrive/build/lib
+creating /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+copying haru_odrive/__init__.py -> /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+copying haru_odrive/od.py -> /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+running install
+running install_lib
+creating /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+copying /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive/__init__.py -> /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+copying /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive/od.py -> /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+byte-compiling /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive/od.py to od.cpython-310.pyc
+running install_data
+creating /home/a/harurobo/install/haru_odrive/share/ament_index
+creating /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index
+creating /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index/packages
+copying resource/haru_odrive -> /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index/packages
+copying package.xml -> /home/a/harurobo/install/haru_odrive/share/haru_odrive
+running install_egg_info
+Copying ../../build/haru_odrive/haru_odrive.egg-info to /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing od script to /home/a/harurobo/install/haru_odrive/lib/od_ros
+writing list of installed files to '/home/a/harurobo/build/haru_odrive/install.log'

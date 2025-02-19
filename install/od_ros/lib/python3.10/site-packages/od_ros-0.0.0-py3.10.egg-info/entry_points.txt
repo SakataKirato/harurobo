@@ -1,3 +1,0 @@
-[console_scripts]
-od = od_ros.od:main
-

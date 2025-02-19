@@ -7,10 +7,9 @@ import math
 from odrive.enums import *
 from pynput import keyboard  # キーボード入力を監視
 
-
 class OmniMotorController(Node):
     def __init__(self, config_file):
-        super().__init__("omni_motor_controller")
+        super().__init__('omni_motor_controller')
 
         self.get_logger().info(f"設定ファイルを読み込んでいます: {config_file}")
         with open(config_file, "r") as file:
@@ -18,16 +17,17 @@ class OmniMotorController(Node):
 
         self.motor_configs = self.config.get("motors", [])
         if not self.motor_configs:
-            self.get_logger().error(
-                "設定ファイルに 'motors' が存在しません。処理を中断します。"
-            )
+            self.get_logger().error("設定ファイルに 'motors' が存在しません。処理を中断します。")
             raise ValueError("設定ファイルが無効です。")
 
         self.odrives = {}
         self.connect_odrives()
 
         self.subscription = self.create_subscription(
-            Twist, "/pid_cmd_vel", self.cmd_vel_callback, 10
+            Twist,
+            '/pid_cmd_vel',
+            self.cmd_vel_callback,
+            10
         )
 
         self.listener = keyboard.Listener(on_press=self.on_key_press)
@@ -42,18 +42,12 @@ class OmniMotorController(Node):
             serial_number = motor_config["serial_number"]
 
             if serial_number not in self.odrives:
-                self.get_logger().info(
-                    f"シリアル番号 {serial_number} のODriveに接続しています..."
-                )
+                self.get_logger().info(f"シリアル番号 {serial_number} のODriveに接続しています...")
                 try:
-                    self.odrives[serial_number] = odrive.find_any(
-                        serial_number=serial_number
-                    )
+                    self.odrives[serial_number] = odrive.find_any(serial_number=serial_number)
                     self.get_logger().info(f"ODrive {serial_number} に接続しました。")
                 except Exception as e:
-                    self.get_logger().error(
-                        f"ODrive {serial_number} に接続できません: {e}"
-                    )
+                    self.get_logger().error(f"ODrive {serial_number} に接続できません: {e}")
                     raise
 
     def cmd_vel_callback(self, msg):
@@ -64,12 +58,12 @@ class OmniMotorController(Node):
         Vy = msg.linear.y
         omega = msg.angular.z
 
-        coeff = 1 / (2 * math.pi * self.r)
+        coeff = 1 / (2*math.pi*self.r)
         r2 = math.sqrt(2)
-        v1 = coeff * ((-Vx + Vy) / r2 + self.R * omega)
-        v2 = coeff * ((-Vx - Vy) / r2 + self.R * omega)
-        v3 = coeff * ((Vx - Vy) / r2 + self.R * omega)
-        v4 = coeff * ((Vx + Vy) / r2 + self.R * omega)
+        v1 = coeff * ((-Vx + Vy)/r2 + self.R * omega)
+        v2 = coeff * ((-Vx - Vy)/r2 + self.R * omega)
+        v3 = coeff * ((Vx - Vy)/r2 + self.R * omega)
+        v4 = coeff * ((Vx + Vy)/r2 + self.R * omega)
 
         speeds = [v1, v2, v3, v4]
 
@@ -80,9 +74,7 @@ class OmniMotorController(Node):
 
     def set_motor_speed(self, serial_number, axis, speed):
         if serial_number not in self.odrives:
-            self.get_logger().error(
-                f"シリアル {serial_number} のODriveが見つかりません。"
-            )
+            self.get_logger().error(f"シリアル {serial_number} のODriveが見つかりません。")
             return
 
         odrv = self.odrives[serial_number]
@@ -91,9 +83,7 @@ class OmniMotorController(Node):
         motor.controller.config.control_mode = CONTROL_MODE_VELOCITY_CONTROL
         motor.controller.input_vel = speed
 
-        self.get_logger().info(
-            f"シリアル {serial_number}, 軸 {axis} のモーター速度を {speed} に設定しました。"
-        )
+        self.get_logger().info(f"シリアル {serial_number}, 軸 {axis} のモーター速度を {speed} に設定しました。")
 
     def on_key_press(self, key):
         try:
@@ -110,31 +100,22 @@ class OmniMotorController(Node):
         self.get_logger().info("すべてのモーターをキャリブレーションしています...")
         for serial_number, odrv in self.odrives.items():
             for axis in [odrv.axis0, odrv.axis1]:
-                self.get_logger().info(
-                    f"シリアル {serial_number} のモーターをキャリブレーション中..."
-                )
+                self.get_logger().info(f"シリアル {serial_number} のモーターをキャリブレーション中...")
                 axis.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
 
     def enable_closed_loop_control(self):
-        self.get_logger().info(
-            "すべてのモーターをクローズドループ制御に設定しています..."
-        )
+        self.get_logger().info("すべてのモーターをクローズドループ制御に設定しています...")
         for serial_number, odrv in self.odrives.items():
             for axis in [odrv.axis0, odrv.axis1]:
-                self.get_logger().info(
-                    f"シリアル {serial_number} のモーターをクローズドループ制御に設定中..."
-                )
+                self.get_logger().info(f"シリアル {serial_number} のモーターをクローズドループ制御に設定中...")
                 axis.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
-
 
 def main(args=None):
     rclpy.init(args=args)
-    node = Node("argument_parser")
-    config_file = node.declare_parameter("config_file", "").value
+    node = Node('argument_parser')
+    config_file = node.declare_parameter('config_file', '').value
     if not config_file:
-        node.get_logger().error(
-            "パラメータ 'config_file' が指定されていません！ '--ros-args --param config_file:=<path_to_config>' を使用してください。"
-        )
+        node.get_logger().error("パラメータ 'config_file' が指定されていません！ '--ros-args --param config_file:=<path_to_config>' を使用してください。")
         return
 
     try:
@@ -145,6 +126,5 @@ def main(args=None):
     finally:
         rclpy.shutdown()
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

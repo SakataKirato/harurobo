@@ -26,7 +26,7 @@ class JoyTranslate(Node):
         self.linear_speedfactor = config["parameters"]["linear_speedfactor"]
         self.angular_speedfactor = config["parameters"]["angular_speedfactor"]
 
-        self.publisher = self.create_publisher(Twist, "/pid_cmd_vel", 10)
+        self.publisher = self.create_publisher(Twist, "pid_cmd_vel", 10)
         self.subscription = self.create_subscription(
             Joy, "joy", self.listener_callback, 10
         )

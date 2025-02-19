@@ -12,7 +12,7 @@ import yaml
 # from rogidrive_msg.msg import RogidriveMessage
 
 
-def load_config(file_path="config.yaml"):
+def load_config(file_path="/home/a/harurobo1/src/joy_translate/config.yaml"):
     with open(file_path, "r", encoding="utf-8") as file:
         return yaml.safe_load(file)
 

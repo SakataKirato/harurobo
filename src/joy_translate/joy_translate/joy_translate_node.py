@@ -42,7 +42,7 @@ class JoyTranslate(Node):
 
     def listener_callback(self, joy):
         msg = Twist()
-        msg.linear.x = self.linear_speedfactor * joy.axes[0]
+        msg.linear.x = -(self.linear_speedfactor * joy.axes[0])
         msg.linear.y = self.linear_speedfactor * joy.axes[1]
         msg.angular.z = (-joy.axes[2] + joy.axes[5]) * self.angular_speedfactor
         self.publisher.publish(msg)

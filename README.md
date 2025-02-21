@@ -12,7 +12,6 @@ sudo apt install xterm
 ビルドソースし、コントローラをパソコンにつなぎ以下のように打つ　　
 ```
 ros2 launch haru_launch haru_launch.py config_file:=[config.jsonのpath] ls:=[直進移動の速度係数] as:=[旋回移動の速度係数]
-
 ```
 
 抜けがあったらごめんなさい

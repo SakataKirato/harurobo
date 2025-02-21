@@ -1,0 +1,22 @@
+[28.859s] Invoking command in '/home/a/harurobo/src/joy_translate': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data
+[29.078s] running egg_info
+[29.079s] writing ../../build/joy_translate/joy_translate.egg-info/PKG-INFO
+[29.079s] writing dependency_links to ../../build/joy_translate/joy_translate.egg-info/dependency_links.txt
+[29.080s] writing entry points to ../../build/joy_translate/joy_translate.egg-info/entry_points.txt
+[29.080s] writing requirements to ../../build/joy_translate/joy_translate.egg-info/requires.txt
+[29.080s] writing top-level names to ../../build/joy_translate/joy_translate.egg-info/top_level.txt
+[29.082s] reading manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+[29.083s] adding license file 'LICENSE'
+[29.083s] writing manifest file '../../build/joy_translate/joy_translate.egg-info/SOURCES.txt'
+[29.083s] running build
+[29.084s] running build_py
+[29.084s] running install
+[29.084s] running install_lib
+[29.087s] running install_data
+[29.087s] running install_egg_info
+[29.091s] removing '/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate-0.0.0-py3.10.egg-info' (and everything under it)
+[29.092s] Copying ../../build/joy_translate/joy_translate.egg-info to /home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate-0.0.0-py3.10.egg-info
+[29.096s] running install_scripts
+[29.131s] Installing joy_translate_node script to /home/a/harurobo/install/joy_translate/lib/joy_translate
+[29.131s] writing list of installed files to '/home/a/harurobo/build/joy_translate/install.log'
+[29.194s] Invoked command in '/home/a/harurobo/src/joy_translate' returned '0': PYTHONPATH=/home/a/harurobo/build/joy_translate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_translate build --build-base /home/a/harurobo/build/joy_translate/build install --record /home/a/harurobo/build/joy_translate/install.log --single-version-externally-managed install_data

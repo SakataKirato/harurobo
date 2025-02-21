@@ -27,7 +27,7 @@ class OmniMotorController(Node):
         self.connect_odrives()
 
         self.subscription = self.create_subscription(
-            Twist, "/pid_cmd_vel", self.cmd_vel_callback, 10
+            Twist, "pid_cmd_vel", self.cmd_vel_callback, 10
         )
 
         self.listener = keyboard.Listener(on_press=self.on_key_press)

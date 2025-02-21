@@ -1,4 +1,0 @@
-parameters:
-  linear_speedfactor : 0.5  # 直進速度の倍率
-  angular_speedfactor : 0.5 # 旋回速度の倍率
-

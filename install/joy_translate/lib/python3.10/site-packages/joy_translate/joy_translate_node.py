@@ -12,19 +12,25 @@ import yaml
 # from rogidrive_msg.msg import RogidriveMessage
 
 
-def load_config(file_path="/home/a/harurobo/src/joy_translate/config.yaml"):
-    with open(file_path, "r", encoding="utf-8") as file:
-        return yaml.safe_load(file)
+# def load_config(file_path="/home/a/harurobo/src/joy_translate/config.yaml"):
+#     with open(file_path, "r", encoding="utf-8") as file:
+#         return yaml.safe_load(file)
 
 
 class JoyTranslate(Node):
     def __init__(self):
         super().__init__("joy_translate_node")
 
-        config = load_config()
+        # config = load_config()
 
-        self.linear_speedfactor = config["parameters"]["linear_speedfactor"]
-        self.angular_speedfactor = config["parameters"]["angular_speedfactor"]
+        # self.linear_speedfactor = config["parameters"]["linear_speedfactor"]
+        # self.angular_speedfactor = config["parameters"]["angular_speedfactor"]
+
+        self.declare_parameter("linear_speedfactor", 0.5)
+        self.declare_parameter("angular_speedfactor", 0.5)
+
+        self.linear_speedfactor = self.get_parameter("linear_speedfactor").value
+        self.angular_speedfactor = self.get_parameter("angular_speedfactor").value
 
         self.publisher = self.create_publisher(Twist, "pid_cmd_vel", 10)
         self.subscription = self.create_subscription(

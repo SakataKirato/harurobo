@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/joy_translate/rogilinkFlex-ros2/rogilink_flex_lib",
+        "./src/rogilinkFlex-ros2/rogilink_flex_lib"
+    ]
+}

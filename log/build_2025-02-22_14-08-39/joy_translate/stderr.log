@@ -1,0 +1,5 @@
+  File "/home/a/harurobo/install/joy_translate/lib/python3.10/site-packages/joy_translate/joy_translate_node.py", line 8
+    from  /home/a/harurobo/src/rogilinkFlex-ros2/rogilink_flex_libimport Publisher, Subscriber
+          ^
+SyntaxError: invalid syntax
+

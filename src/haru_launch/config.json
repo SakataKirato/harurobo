@@ -1,0 +1,16 @@
+{
+    "device_id": 0,
+    "reception_messages": [
+        {
+            "id": 1,
+            "name": "servo",
+            "type": "bool"}
+    ],
+    "transmission_messages": [
+        {
+            "id": 1,
+            "name": "servo",
+            "type": "bool"
+        }
+    ]
+}

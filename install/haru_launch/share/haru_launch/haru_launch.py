@@ -50,5 +50,13 @@ def generate_launch_description():
                 prefix="xterm -e",
                 output="screen",
             ),
+            Node(
+                package="rogilink_flex",
+                executable="rogilink_flex",
+                name="rogilink_flex",
+                parameters=[
+                    {"config_path": "/home/a/harurobo/src/haru_launch/config.json"}
+                ],
+            ),
         ]
     )

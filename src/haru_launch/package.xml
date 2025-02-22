@@ -7,9 +7,10 @@
   <maintainer email="kiratosakata@keio.jp">a</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>joy</depend>
+  <depend>haru_odrive</depend>
   <depend>joy_translate</depend>
-  <exec_depend>ros2launch</exec_depend>
+  
+  
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

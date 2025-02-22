@@ -1,0 +1,38 @@
+[0.919s] Invoking command in '/home/a/harurobo/src/haru_odrive': PYTHONPATH=/home/a/harurobo/build/haru_odrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/haru_odrive build --build-base /home/a/harurobo/build/haru_odrive/build install --record /home/a/harurobo/build/haru_odrive/install.log --single-version-externally-managed install_data
+[1.124s] running egg_info
+[1.124s] creating ../../build/haru_odrive/haru_odrive.egg-info
+[1.124s] writing ../../build/haru_odrive/haru_odrive.egg-info/PKG-INFO
+[1.125s] writing dependency_links to ../../build/haru_odrive/haru_odrive.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/haru_odrive/haru_odrive.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/haru_odrive/haru_odrive.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/haru_odrive/haru_odrive.egg-info/top_level.txt
+[1.125s] writing manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+[1.126s] reading manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+[1.126s] adding license file 'LICENSE'
+[1.126s] writing manifest file '../../build/haru_odrive/haru_odrive.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.127s] creating /home/a/harurobo/build/haru_odrive/build
+[1.127s] creating /home/a/harurobo/build/haru_odrive/build/lib
+[1.127s] creating /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+[1.127s] copying haru_odrive/__init__.py -> /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+[1.127s] copying haru_odrive/od.py -> /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive
+[1.127s] running install
+[1.127s] running install_lib
+[1.128s] creating /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+[1.128s] copying /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive/__init__.py -> /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+[1.128s] copying /home/a/harurobo/build/haru_odrive/build/lib/haru_odrive/od.py -> /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive
+[1.128s] byte-compiling /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive/__init__.py to __init__.cpython-310.pyc
+[1.128s] byte-compiling /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive/od.py to od.cpython-310.pyc
+[1.129s] running install_data
+[1.130s] creating /home/a/harurobo/install/haru_odrive/share/ament_index
+[1.130s] creating /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index
+[1.130s] creating /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index/packages
+[1.130s] copying resource/haru_odrive -> /home/a/harurobo/install/haru_odrive/share/ament_index/resource_index/packages
+[1.130s] copying package.xml -> /home/a/harurobo/install/haru_odrive/share/haru_odrive
+[1.130s] running install_egg_info
+[1.131s] Copying ../../build/haru_odrive/haru_odrive.egg-info to /home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages/haru_odrive-0.0.0-py3.10.egg-info
+[1.132s] running install_scripts
+[1.153s] Installing od script to /home/a/harurobo/install/haru_odrive/lib/od_ros
+[1.153s] writing list of installed files to '/home/a/harurobo/build/haru_odrive/install.log'
+[1.182s] Invoked command in '/home/a/harurobo/src/haru_odrive' returned '0': PYTHONPATH=/home/a/harurobo/build/haru_odrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/harurobo/install/haru_odrive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/haru_odrive build --build-base /home/a/harurobo/build/haru_odrive/build install --record /home/a/harurobo/build/haru_odrive/install.log --single-version-externally-managed install_data

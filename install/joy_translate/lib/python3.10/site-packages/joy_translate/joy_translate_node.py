@@ -5,6 +5,9 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 import numpy as np
 from geometry_msgs.msg import Twist
+from rogilink_flex_lib import Publisher, Subscriber
+from ctypes import c_bool
+
 import yaml
 
 
@@ -14,7 +17,7 @@ import yaml
 
 # def load_config(file_path="/home/a/harurobo/src/joy_translate/config.yaml"):
 #     with open(file_path, "r", encoding="utf-8") as file:
-#         return yaml.safe_load(file)
+#         return yaml.safe_load(from rogilink_flex_lib import Publisher, Subscriberfile)
 
 
 class JoyTranslate(Node):
@@ -36,6 +39,11 @@ class JoyTranslate(Node):
         self.subscription = self.create_subscription(
             Joy, "joy", self.listener_callback, 10
         )
+
+        # rogilinkflex
+        self.publisher_servo = Publisher(self, "servo", (c_bool))
+        # rogilinkflex
+
         # self.publisher1 = self.create_publisher(Twist, "/motor1_speed", 10)
         # self.publisher2 = self.create_publisher(Twist, "/motor2_speed", 10)
         # self.publisher3 = self.create_publisher(Twist, "/motor3_speed", 10)
@@ -46,8 +54,13 @@ class JoyTranslate(Node):
         msg.linear.y = self.linear_speedfactor * joy.axes[1]
         msg.angular.z = (-joy.axes[2] + joy.axes[5]) * self.angular_speedfactor
         self.publisher.publish(msg)
+        # rogilinkflex
+        servo_msg = c_bool()
+        servo_msg.value = joy.buttons[0]
+        self.publisher_servo.publish((servo_msg))
+        # rogilinkflex
         self.get_logger().info(
-            f"Velocity: {msg.linear.x}, {msg.linear.y}, {msg.angular.z}"
+            f"Velocity: {msg.linear.x}, {msg.linear.y}, {msg.angular.z}, Servo: {servo_msg.value}"
         )
 
         # translate_velocity = np.array(

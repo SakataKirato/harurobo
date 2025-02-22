@@ -5,7 +5,8 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 import numpy as np
 from geometry_msgs.msg import Twist
-from /home/a/harurobo/src/rogilinkFlex-ros2/rogilink_flex_lib import Publisher, Subscriber
+
+# from /home/a/harurobo/src/rogilinkFlex-ros2/rogilink_flex_lib import Publisher, Subscriber
 from ctypes import c_bool
 
 import yaml
@@ -41,7 +42,7 @@ class JoyTranslate(Node):
         )
 
         # rogilinkflex
-        self.publisher_servo = Publisher(self, "servo", (c_bool))
+        # self.publisher_servo = Publisher(self, "servo", (c_bool))
         # rogilinkflex
 
         # self.publisher1 = self.create_publisher(Twist, "/motor1_speed", 10)
@@ -55,12 +56,12 @@ class JoyTranslate(Node):
         msg.angular.z = (-joy.axes[2] + joy.axes[5]) * self.angular_speedfactor
         self.publisher.publish(msg)
         # rogilinkflex
-        servo_msg = c_bool()
-        servo_msg.value = joy.buttons[0]
-        self.publisher_servo.publish((servo_msg))
+        # servo_msg = c_bool()
+        # servo_msg.value = joy.buttons[0]
+        # self.publisher_servo.publish((servo_msg))
         # rogilinkflex
         self.get_logger().info(
-            f"Velocity: {msg.linear.x}, {msg.linear.y}, {msg.angular.z}, Servo: {servo_msg.value}"
+            f"Velocity: {msg.linear.x}, {msg.linear.y}, {msg.angular.z}"
         )
 
         # translate_velocity = np.array(

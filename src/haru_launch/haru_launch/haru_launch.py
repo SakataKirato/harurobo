@@ -4,6 +4,7 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 import os
 from ament_index_python.packages import get_package_share_directory
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -19,6 +20,9 @@ def generate_launch_description():
     angular_speedfactor_arg = DeclareLaunchArgument(
         "as", default_value="0.5", description="Angular speed"
     )
+
+    linear_speedfactor = ParameterValue(LaunchConfiguration("ls"), value_type=float)
+    angular_speedfactor = ParameterValue(LaunchConfiguration("as"), value_type=float)
 
     return LaunchDescription(
         [
@@ -38,8 +42,8 @@ def generate_launch_description():
                 output="screen",
                 parameters=[
                     {
-                        "linear_speedfactor": LaunchConfiguration("ls"),
-                        "angular_speedfactor": LaunchConfiguration("as"),
+                        "linear_speedfactor": linear_speedfactor,
+                        "angular_speedfactor": angular_speedfactor,
                     }
                 ],
             ),
@@ -50,13 +54,13 @@ def generate_launch_description():
                 prefix="xterm -e",
                 output="screen",
             ),
-            Node(
-                package="rogilink_flex",
-                executable="rogilink_flex",
-                name="rogilink_flex",
-                parameters=[
-                    {"config_path": "/home/a/harurobo/src/haru_launch/config.json"}
-                ],
-            ),
+            # Node(
+            #     package="rogilink_flex",
+            #     executable="rogilink_flex",
+            #     name="rogilink_flex",
+            #     parameters=[
+            #         {"config_path": "/home/a/harurobo/src/haru_launch/config.json"}
+            #     ],
+            # ),
         ]
     )
